@@ -62,7 +62,7 @@ permalink: /men/
        		display: flex;
   			justify-content: center;
   			align-items: center;
-  			height: 25vh;
+  			height: 15vh;
         }
                         
             
@@ -102,6 +102,21 @@ permalink: /men/
             transform-origin: bottom left;
         	}
 
+		.button3 {
+            font-size: 20px;
+            background-color: #E5E6E6;
+  	        color: black;
+  	        cursor: pointer;
+  	        padding: 18px;
+  	        width: 8%;
+  	        border: none;
+            border-radius: 10px;
+  	        text-align: middle;
+  	        outline: none;
+            text-decoration: none;
+            margin: 0 10px;
+        	}
+
         .second-line {
             font-size: 15px;
         	}
@@ -116,25 +131,26 @@ permalink: /men/
 	<body>
 
 
-
+<!-- BACK BUTTON -->
+<div>
+<button class="button3" onclick="goToWebsite('https://swimrecords.github.io/')">Back <br>
+</div>
 
 
 <!-- Titles -->
-<h2>MEN'S SWIMMING RECORDS (SCY)</h2>
+<h2> MEN'S SWIMMING RECORDS (SCY)</h2>
 
 
-
+<div>
 <!-- MEN'S US OPEN RECORDS BUTTON -->
 <div class="buttoncontainer">
 <button class="button2" onclick="goToWebsite('/men_us_open')"><b> US Open </b> Records <br>
-<span class='second-line'> <i> The fastest swims on US soil. </i></span></button>
-
+<span class='second-line'> <i> The fastest swims in US water. </i></span></button>
 
 
 <!-- MEN'S AMERICAN RECORDS BUTTON -->
 <button class="button2" onclick="goToWebsite('/men_american')"><b> American </b> Records <br>
 <span class='second-line'> <i> The fastest swims by Americans. </i></span></button>
-
 
             
 <!-- MEN'S NCAA RECORDS BUTTON -->
