@@ -1,1 +1,163 @@
+---
+title: Women
+permalink: /men/
+---
 
+<!DOCTYPE html>
+<html>
+<head>
+<title>Short Course Yards (SCY) Records</title>
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<style>
+    
+    body {
+        	font-family: 'Verdana', sans-serif;}
+       
+		td {
+        	padding: 8px;
+			text-align: left;
+			border-bottom: 1px solid #ddd;
+            padding-right: 82px
+            } 
+                              
+        h2 {
+            padding: 10px;
+			text-align: center;
+			font-size: 40px; /* Font size */  
+            font-family:Verdana, sans-serif;
+        	}
+            
+       	p {
+        	padding: 10px;
+			text-align: center;
+			border-bottom: 1px solid #ddd;
+            font-size: 20px; /* Font size */            
+        	} 
+            
+                
+        th {
+        	padding: 0px;
+			text-align: left;
+			border-bottom: 1px solid #ddd;
+            font-size: 20px; /* Font size */}
+            table { 
+            border-collapse: separate;
+			} 
+            
+      	table { border-collapse: separate;
+			border-spacing: 8px}
+            
+       	input[type=submit] {
+			background-color: none;
+			color: black; 
+			padding: 15px 10px;
+			border: white; /* No border */
+			border-radius: 0px; /* Rounded corners */
+			cursor: pointer; /* Cursor on hover */
+			font-size: 16px; /* Font size */}
+            
+            
+        .buttoncontainer        {
+       		display: flex;
+  			justify-content: center;
+  			align-items: center;
+  			height: 15vh;
+       		}
+                        
+            
+        .button {
+            font-size: 30px;
+            
+        	}
+        
+        .button2 {
+            font-size: 30px;
+            background-color: #E5E6E6;
+  	        color: black;
+  	        cursor: pointer;
+  	        padding: 18px;
+  	        width: 20%;
+  	        border: none;
+            border-radius: 10px;
+  	        text-align: middle;
+  	        outline: none;
+            text-decoration: none;
+            margin: 0 10px;
+        	}
+
+        .button2::before {
+            font-size: 30px;
+            transform: scaleX(0);
+            transform-origin: bottom right;
+            transition: transform 0.3s ease;
+        	}
+
+        .button2:hover {
+            background-color: cyan;
+        	}
+
+        .button2:hover::before {
+            transform: scaleX(1);
+            transform-origin: bottom left;
+        	}
+
+		.button3 {
+            font-size: 20px;
+            background-color: #E5E6E6;
+  	        color: black;
+  	        cursor: pointer;
+  	        padding: 10px;
+  	        width: 5%;
+  	        border: none;
+            border-radius: 10px;
+  	        text-align: middle;
+  	        outline: none;
+            text-decoration: none;
+            margin: 0 10px;
+        	}
+
+        .second-line {
+            font-size: 15px;
+        	}
+    
+	</style>
+    <script>
+        function goToWebsite(url) {
+          window.location.href = url;
+        }
+        </script>
+	</head>
+	<body>
+
+
+<!-- BACK BUTTON -->
+<div>
+<button class="button3" onclick="goToWebsite('https://swimrecords.github.io/')">Back <br>
+</div>
+
+
+<!-- Titles -->
+<h2> WOMEN'S SWIMMING RECORDS (SCY)</h2>
+
+
+<div>
+<!-- WOMEN'S US OPEN RECORDS BUTTON -->
+<div class="buttoncontainer">
+<button class="button2" onclick="goToWebsite('/women_us_open')"><b> US Open </b> Records <br>
+<span class='second-line'> <i> The fastest swims in US water. </i></span></button>
+
+
+<!-- WOMEN'S AMERICAN RECORDS BUTTON -->
+<button class="button2" onclick="goToWebsite('/women_american')"><b> American </b> Records <br>
+<span class='second-line'> <i> The fastest swims by Americans. </i></span></button>
+
+            
+<!-- WOMEN'S NCAA RECORDS BUTTON -->
+<button class="button2" onclick="goToWebsite('/women_ncaa')"><b> NCAA </b> Records <br>
+<span class='second-line'> <i> The fastest swims at NCAA meets. </i></span></button>
+</div>
+
+
+</body>
+</html>
