@@ -1,0 +1,66 @@
+---
+title: Interesting Facts
+permalink: /facts/
+---
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Interesting Facts</title>
+</head>
+<body>
+<table>
+             
+		<tr> <th style="border-bottom:2px solid black"> <b> Men's Facts </b> </th> </tr>
+	<tr> <td style= "border-bottom: 1px solid #ddd"> <b> Every NCAA record is also a US Open record. No current US Open records were set outside of the NCAA. </b> </td> </tr>
+	<tr> <td style= "border-bottom: 1px solid #ddd"> <b>3 individual US Open records are set by non-Americans.</b></td> </tr>
+    <tr> <td style= "border-bottom: none"> - Leon Marchand of France has the 200 IM record in 1:37.69.</td> </tr>
+    <tr> <td style= "border-bottom: 1px solid #ddd"> - Leon Marchand also has the 400 IM record in 3:31.88.</td> </tr>
+    <tr> <td style= "border-bottom: 1px solid #ddd"> - Bjorn Seeliger of Sweden led off Cal-Berkeley's 200 Medley Relay with a 50 Back time of 20.08.</td> </tr>
+    
+	<tr> <td style= "border-bottom: 1px solid #ddd"><b>3 relay US Open records are set by a non-American team.</b><td> </tr> 
+	<tr> <td style= "border-bottom: none"> - Auburn's 200 Free Relay record of 1:14.08 included Jakob Andkjaer of Denmark, Gideon Louw of South Africa, and Matt Targett of Australia. <td> </tr>
+	<tr> <td style= "border-bottom: none"> - Florida's 200 Medley Relay record of 1:21.13 included Eric Friese of Germany. <td> </tr>
+	<tr> <td style= "border-bottom: 1px solid #ddd"> - Texas's 400 Medley Relay record of 2:59.22 included Joseph Schooling of Singapore.<td> </tr>
+    
+	<tr> <td style= "border-bottom: 1px solid #ddd"> <b>2 relay split US Open records were set by non-Americans. </b> <td> </tr>
+	<tr> <td style= "border-bottom: none"> - Jordan Crooks of the Cayman Islands split 18.90 in the 50 Fly, being the first man under 19 seconds.  <td> </tr>
+    <tr> <td style= "border-bottom: none"> -- In fact, the 4 fastest 50 Fly splits were all set by non-Americans. Jordan Crooks of the Cayman Islands (18.90), Eric Friese of Germany (19.36), Joseph Schooling of Singapore (19.36), and Andrei Minakov of Russia (19.42). <td> </tr>
+     <tr> <td style= "border-bottom: 1px solid #ddd"> - As mentioned earlier, Bjorn Seeliger of Sweden has the 50 Back record at 20.08.</td> </tr>
+    
+    <tr> <td style= "border-bottom: 1px solid #ddd"> <b> 2 US Open records were set outside of midseason, conference, or NCAAs.  </b> <td> </tr>
+    <tr> <td style= "border-bottom: none"> - Clark Smith's 1000 Free time of 8:33.93 was set at a Texas Invitational in 2015, and he swam the race completely alone. The 1000 Free is usually only swam at meets outside of midseason/conference/NCAAs, so this record may remain untouched for a long time. It was almost broken by Robert (Bobby) Finke in his 1650 Free at the 2020 SECs. Finke took out the first 1000 of his 1650 in 8:34.63, only .70 off Smith's record.  <td> </tr>
+	<tr> <td style= "border-bottom: none"> - Leon Marchand's 400 IM time of 3:31.88 was set at a duel meet against Cal-Berkeley in January of 2023. <td> </tr>
+    <tr> <td style= "border-bottom: none"> - Shaine Casas's 100 IM time of 46.33 was set at an intrasquad meet in December of 2020. This event is rarely swam at midseason meets and has never been swum at the NCAAs, but it's one of the most exciting races in all of swimming. <td> </tr>
+    
+    
+    <td>&nbsp;</td>
+    
+    
+		<tr> <th style= "border-bottom: 2px solid black"> <b> Women's Facts </b> </th> </tr>
+        
+	<tr> <td style= "border-bottom: 1px solid #ddd"> <b>  2 US Open records were set outside of the NCAA. </b> </td> </tr>
+    <!-- Ledecky Proof: https://www.youtube.com/watch?v=eMRaOaRqaZU -->
+    <tr> <td style= "border-bottom: none"> - Katie Ledecky's swam the 1000 Free in 8:59.65 at a Nation's Capital Invitational in 2015, before she ever swam in college. This record is considered to be one of the fastest of the women's records, and when it was broken, it set the new record by over 10 seconds. Kyle Sockwell, the President of Swimming Twitter, pointed out that for this race, Ledecky went "Out 4:30 back 4:28... lol." </td> </tr>
+    <tr> <td style= "border-bottom: 1px solid #ddd"> - Regan Smith's 200 Back time of 1:47.16 was set at a Speedo Champions Series meet in Greensboro, before she swam in college. At this meet, Smith represented Minnesota's Riptide Club Swim Team. <td> </tr>
+    
+	<tr> <td style= "border-bottom: 1px solid #ddd"> <b>2 individual US Open records are set by a non-American.</b></td> </tr>
+    <tr> <td style= "border-bottom: none"> - Maggie Mac Neil of Canada holds the 50 Back record at a 22.52 leading off LSU's 200 Medley Relay at the 2023 ACC Championships.</td> </tr>
+    <tr> <td style= "border-bottom: 1px solid #ddd"> - Maggie Mac Neil also has the 50 Fly record at a 22.67 as her first 50 in her 100 Fly at the 2021 NCAA Division I Championships.</td> </tr>
+    
+	<tr> <td style= "border-bottom: 1px solid #ddd"><b> No relay US Open records were set by a non-American team.</b><td> </tr> 
+	
+	<tr> <td style= "border-bottom: 1px solid #ddd"> <b> 2 relay split US Open records were set by a non-American. </b> <td> </tr>
+	<tr> <td style= "border-bottom: none"> - Once again, Maggie Mac Neil of Canada holds the 50 Back record at a 22.52 leading off for LSU.  <td> </tr>
+    <tr> <td style= "border-bottom: 1px solid #ddd"> - Maggie Mac Neil also has the fastest 50 Fly split in history at a 21.85 at the Art Adamson Invitational in 2022. <td> </tr>
+    
+    <tr> <td style= "border-bottom: 1px solid #ddd"> <b> 4 US Open records were set outside of midseason, conference, or ncaas.  </b> <td> </tr>
+	<tr> <td style= "border-bottom: none"> - As mentioned earlier, Katie Ledecky's 1000 Free time of 8:59.65 was swum outside of the NCAAs.  <td> </tr>
+    <tr> <td style= "border-bottom: none"> - Also mentioned earlier, Regan Smith's 200 Back time of 1:47.16 was swum outside of the NCAAs. <td> </tr>
+    <tr> <td style= "border-bottom: 1px solid #ddd"> - Gretchen Walsh has the 100 IM record from a duel meet against Texas in November of 2022. This event, according to a video of the race, was swum unsuited, which is absolutely mindblowing. <td> </tr>
+    <tr> <td style= "border-bottom: 1px solid #ddd"> - Kate Douglass set the 200 Breast record at the Cavalier Invitational in early February of 2023, just two weeks before the ACC Championships. <td> </tr>
+                    
+</table>
+</body>
+</html>   
+                
