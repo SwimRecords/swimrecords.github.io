@@ -1,1 +1,688 @@
+---
+title: Women's American Records
+permalink: /women_american/
+---
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Short Course Yards (SCY) World Records</title>
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<style>
+	.collapsible {
+ 	        background-color: #E5E6E6;
+  	        color: black;
+  	        cursor: pointer;
+  	        padding: 18px;
+  	        width: 30%;
+  	        border: none;
+            border-radius: 10px;
+  	        text-align: middle;
+  	        outline: none;
+   		 	}
+
+		.active, .collapsible:hover {
+            background-color: #00D0FF;
+			}
+
+		.content {
+ 	        padding: 20px;
+  	        display: none;
+  	        overflow: hidden;
+  	        background-color: #f1f1f1;
+			}
+    
+    
+		.content {
+ 	        padding: 20px;
+  	        display: none;
+  	        overflow: hidden;}
+    
+    	body {
+        	font-family: 'Verdana', sans-serif;}
+       
+		td {
+        	padding: 8px;
+			text-align: left;
+			border-bottom: 1px solid #ddd;
+            padding-right: 82px;
+            font-size: 20px;} 
+            
+       .td2 {
+            padding: 8px;
+	    	text-align: center;
+	    	border-bottom: none;
+            padding-right: 82px;
+            font-size: 18px;}
+		
+		.td3 {
+        	padding: 8px;
+			text-align: left;
+			border-bottom: 1px solid #ddd;
+            padding-right: 82px;
+            font-size: 18px;} 
+            
+        .td4 {
+        	padding: 8px;
+			text-align: left;
+			border-bottom: 1px solid #ddd;
+            padding-right: 82px;
+            font-size: 18px;} 
+            
+        .td5 {
+        	padding: 8px;
+			text-align: left;
+			border-bottom: 1px solid #ddd;
+            padding-right: 82px;
+            font-size: 17px;} 
+                              
+        h2 {
+            padding: 10px;
+			text-align: center;
+			font-size: 40px; /* Font size */  
+            font-family:Verdana, sans-serif;
+        	}
+            
+       	p {
+        	padding: 10px;
+			text-align: center;
+			border-bottom: 1px solid #ddd;
+            font-size: 20px; /* Font size */} 
+                           
+        th {
+        	padding: 0px;
+			text-align: center;
+			border-bottom: 1px solid #ddd;
+            font-size: 20px; /* Font size */}            
+        .th2 {
+            padding: 0px;
+			text-align: left;
+			border-bottom: 1px solid #ddd;
+            font-size: 25px; /* Font size */}
+                             
+      	table {border-collapse: separate;
+			border-spacing: 8px;}
+                                  
+       	input[type=submit] {
+			background-color: none;
+			color: black; 
+			padding: 15px 10px;
+			border: white; /* No border */
+			border-radius: 0px; /* Rounded corners */
+			cursor: pointer; /* Cursor on hover */
+			font-size: 16px; /* Font size */}
+            
+        .button {
+            font-size: 30px;}
+                
+        .button2 {
+            font-size: 30px;
+            background-color: #E5E6E6;
+  	        color: black;
+  	        cursor: pointer;
+  	        padding: 18px;
+  	        width: 30%;
+  	        border: none;
+            border-radius: 10px;
+  	        text-align: middle;
+  	        outline: none;
+            text-decoration: none;}
+
+        .button2::before {
+            font-size: 30px;
+            transform: scaleX(0);
+            transform-origin: bottom right;
+            transition: transform 0.3s ease;}
+
+        .button2:hover {
+            background-color: cyan;}
+
+        .button2:hover::before {
+            transform: scaleX(1);
+            transform-origin: bottom left;}
+
+		.button3 {
+            font-size: 20px;
+            background-color: #E5E6E6;
+  	        color: black;
+  	        cursor: pointer;
+  	        padding: 10px;
+  	        width: 5%;
+  	        border: none;
+            border-radius: 10px;
+  	        text-align: middle;
+  	        outline: none;
+            text-decoration: none;
+            margin: 0 10px;}	
+		
+        .button3:hover {
+            background-color: cyan;
+        	}
+        
+        .second-line {
+            font-size: 15px;
+        }
+    
+	</style>
+    <script>
+        function goToWebsite(url) {
+          window.location.href = url;
+        }
+        </script>
+	</head>
+	<body>
+
+<!-- BACK BUTTON -->
+<div>
+<button class="button3" onclick="goToWebsite('/women/')">Back <br>
+</div>
+		
+		
+<h2>WOMEN'S AMERICAN RECORDS (SCY)</h2>
+  
+   <table>   
+ <th class= "th2">Individuals</th>
+              
+   
+            <tr>
+              <td style='color:gray';>Event</td1>
+              <td style='color:gray';>Time</td1>
+              <td style='color:gray';>Name</td1>
+              <td style='color:gray';>Date</td1>
+              <td style='color:gray';>Team</td1>
+              <td style='color:gray';>Meet</td1>
+			</tr></p>
+            
+<tr>
+<td> 50 Free </td>
+<td>
+      <a href="https://www.swimcloud.com/results/236898/event/13/0/?id=96835583&agegroup=UNOV#time96835583">20.83</a>
+              <td>Gretchen Walsh</td>
+              <td>Feb. 15, 2023</td>
+              <td>Feb. 15, 2023</td>
+              <td>Feb. 15, 2023</td>
+              <td class="c-table-clean__actions-fit">
+
+                </a>
+              </td>
+            </tr>
+          
+            <tr>
+              <td>100 Free</td>
+              <td>
+                
+                  <a href="https://www.swimcloud.com/results/75357/event/17/0/?id=8622740&agegroup=UNOV#time8622740">45.56</a>
+                
+              </td>
+              <td>Simone Manuel</td>
+              <td>March 18, 2017</td>
+              <td>Stanford University</td>
+              <td>NCAA Division I Championships</td>
+              <td class="c-table-clean__actions-fit">
+                </a>
+              </td>
+            </tr>
+          
+            <tr>
+              <td>200 Free</td>
+              <td>
+                
+                  <a href="https://www.swimcloud.com/results/28724/event/10/?id=5924147#time5924147">1:39.10</a>
+                
+              </td>
+              <td>Missy Franklin</td>
+              <td>March 21, 2015</td>
+              <td>University of California-Berkeley</td>
+              <td>NCAA Division I Championships</td>
+              <td class="c-table-clean__actions-fit">
+                </a>
+              </td>
+            </tr>
+          
+            <tr>
+              <td>500 Free</td>
+              <td>
+                
+                  <a href="https://www.swimcloud.com/results/75357/event/3/0/?id=8622277&agegroup=UNOV#time8622277">4:24.06</a>
+                
+              </td>
+              <td>Katie Ledecky</td>
+              <td>March 16, 2017</td>
+              <td>Stanford University</td>
+              <td>PAC-12 Championships</td>
+              <td class="c-table-clean__actions-fit">
+                </a>
+              </td>
+            </tr>
+          
+            <tr>
+              <td>1000 Free</td>
+              <td>
+                
+                  <a href="https://www.swimcloud.com/results/65566/event/123/?id=7907195#time7907195">8:59.65</a>
+                
+              </td>
+              <td>Katie Ledecky</td>
+              <td>Dec. 13, 2015</td>
+              
+              <td>Nation's Capital</td>
+              <td>PV NCAP December Invitational</td>
+              <td class="c-table-clean__actions-fit">
+                </a>
+              </td>
+            </tr>
+          
+            <tr>
+              <td>1650 Free</td>
+              <td>
+              <a href="https://www.swimcloud.com/results/108299/event/31/?id=15773176#time15773176">15:03.31</a>
+                
+              </td>
+               <td>Katie Ledecky</td>
+              <td>Nov. 18, 2017</td>
+              <td>Stanford University</td>
+              <td>Art Adamson Invitational</td>
+              <td class="c-table-clean__actions-fit">
+                </a>
+              </td>
+            </tr>
+          
+            <tr>
+              <td>50 Back</td>
+              <td>
+                
+                  <a href="https://www.swimcloud.com/results/236898/event/3/?id=96733196#time96733196">22.65</a>
+                
+              </td>
+               <td>Gretchen Walsh</td>
+              <td>Feb. 14, 2023</td>
+              <td>University of Virginia</td>
+              <td>ACC Championships</td>
+              <td class="c-table-clean__actions-fit">
+
+                </a>
+              </td>
+            </tr>
+          
+            <tr>
+              <td>100 Back</td>
+              <td>
+                
+                  <a href="https://www.swimcloud.com/results/194774/event/12/0/?id=60997750&agegroup=UNOV#time60997750">48.74</a>
+                
+              </td>
+              <td>Katharine Berkoff</td>
+              <td>March 18, 2022</td>
+              <td>North Carolina State University</td>
+              <td>NCAA Division I Championships</td>
+              <td class="c-table-clean__actions-fit">
+                </a>
+              </td>
+            </tr>
+          
+            <tr>
+              <td>200 Back</td>
+              <td>
+                
+                  <a href="https://www.swimcloud.com/results/129029/event/29/?id=94963063#time94963063">1:47.16</a>
+                
+              </td>
+              <td>Regan Smith</td>
+              <td>March 10, 2019</td>
+              <td>Riptide</td>
+              <td>Speedo Champions Series - Greensboro</td>
+              <td class="c-table-clean__actions-fit">
+                </a>
+              </td>
+            </tr>
+          
+            <tr>
+              <td>50 Breast</td>
+              <td>
+                
+                  <a href="https://www.swimcloud.com/results/118613/event/11/0/?id=25558910&agegroup=UNOV#time25558910">25.98</a>
+                
+              </td>
+              <td>Lilly King</td>
+              <td>March 22, 2019</td>
+              <td>Indiana University-Bloomington</td>
+              <td>NCAA Division I Championships</td>
+              <td class="c-table-clean__actions-fit">
+                </a>
+              </td>
+            </tr>
+          
+            <tr>
+              <td>100 Breast</td>
+              <td>
+                
+                  <a href="https://www.swimcloud.com/results/118613/event/11/0/?id=25558910&agegroup=UNOV#time25558910">55.73</a>
+                
+              </td>
+              <td>Lilly King</td>
+              <td>March 22, 2019</td>
+               <td>Indiana University-Bloomington</td>
+              <td>NCAA Division I Championships</td>
+              <td class="c-table-clean__actions-fit">
+                </a>
+              </td>
+            </tr>
+          
+            <tr>
+              <td>200 Breast</td>
+              <td>
+                
+                  <a href="https://www.swimcloud.com/results/241246/event/429/?id=95834009#time95834009">2:01.43</a>
+                
+              </td>
+              <td>Kate Douglass</td>
+              <td>Feb. 4, 2023</td>
+              
+              <td>University of Virginia</td>
+              <td>Cavalier Invitational</td>
+              <td class="c-table-clean__actions-fit">
+                </a>
+              </td>
+            </tr>
+          
+            <tr>
+              <td>50 Fly</td>
+              <td>
+                
+                  <a href="https://www.swimcloud.com/results/194774/event/9/0/?id=60997986&agegroup=UNOV#time60997986">22.72</a>
+                
+              </td>
+              <td>Torri Huske</td>
+              <td>March 18, 2022</td>
+              <td>Stanford University</td>
+              <td>NCAA Division I Championships</td>
+              </a>
+              </td>
+              </tr>
+            </tr>
+          
+            <tr>
+              <td>100 Fly</td>
+              <td>
+                
+                  <a href="https://www.swimcloud.com/results/236898/event/18/0/?id=96768061&agegroup=UNOV#time96768061">48.84</a>
+                
+              </td>
+              
+              <td>Kate Douglass</td>
+              <td>Feb. 16, 2023</td>
+              <td>University of Virginia</td>
+              <td>ACC Championships</td>
+                        
+            <tr>
+              <td>200 Fly</td>
+              <td>
+                
+                  <a href="https://www.swimcloud.com/results/104722/event/19/?id=14615961#time14615961">1:49.51</a>
+                
+              </td>
+              <td>Ella Eastin</td>
+              <td>Feb. 24, 2018</td>
+              <td>Stanford University</td>
+              <td>PAC-12 Championships</td>
+                        
+            <tr>
+              <td>100 IM</td>
+              <td>
+                
+                  <a href="https://www.swimcloud.com/results/241243/event/14/?id=86773320#time86773320">52.09</a>
+                
+              </td>
+              <td>Gretchen Walsh</td>
+              <td>Nov. 4, 2023</td>
+              <td>University of Virginia</td>
+              <td>Texas vs. Virginia</td>
+                        
+            <tr>
+              <td>200 IM</td>
+              <td>
+                
+                  <a href="https://www.swimcloud.com/results/194774/event/4/0/?id=60998168&agegroup=UNOV#time60998168">1:50.08</a>
+                
+              </td>
+              <td>Alex Walsh</td>
+              <td>March 17, 2022</td>
+              <td>University of Virginia</td>
+              <td>NCAA Division I Championships</td>
+                        
+            <tr>
+              <td>400 IM</td>
+              <td>
+                
+                  <a href="https://www.swimcloud.com/results/104734/event/8/0/?id=14636183&agegroup=UNOV#time14636183">3:54.60</a>
+                
+              </td>
+              <td>Ella Eastin</td>
+              <td>March 16, 2018</td>
+              <td>Stanford University</td>
+              <td>NCAA Division I Championships</td>
+                                                   
+        </tbody>
+      </div>
+      
+<td class= "td2">&nbsp;</td>
+
+
+
+
+
+
+         <tr>
+              <th class="th2">Relays</th>
+           </tr>
+             
+            <tr>
+              <td style='color:gray';>Relay</td1>
+              <td style='color:gray';>Time</td1>
+              <td style='color:gray';>Names</td1>
+              <td style='color:gray';>Date</td1>
+              <td style='color:gray';>Team</td1>
+              <td style='color:gray';>Meet</td1>
+			</tr>
+           
+              <td>200 Free Relay</td>
+              <td>
+                
+                  <a href="https://www.swimcloud.com/results/236898/event/7/?id=96837236#time96837236">1:23.87</a>
+                
+              </td>
+              <td>Douglass, Walsh, Cuomo, Walsh</td>
+              <td>Feb 15, 2023</td>
+              <td>University of Virginia</td>
+              <td>ACC Championships</td>
+                        
+            <tr>
+              <td>400 Free Relay</td>
+              <td>
+                
+                  <a href="https://www.swimcloud.com/results/236898/event/41/?id=96837328#time96837328">3:06.83</a>
+                
+              </td>
+              <td>Walsh, Douglass, Cuomo, Walsh</td>
+              <td>Feb. 18, 2023</td>
+              <td>University of Virginia</td>
+              <td>NCAA Division I Championships</td>
+                        
+            <tr>
+              <td>800 Free Relay</td>
+              <td>
+                
+                  <a href="https://www.swimcloud.com/results/75357/event/1/?id=8623475#time8623475">6:45.91</a>
+                
+              </td>
+              <td>Manuel, Neal, Eastin, Ledecky</td>
+              <td>March 23, 2022</td>
+              <td>Stanford University</td>
+              <td>NCAA Division I Championships</td>
+                        
+            <tr>
+              <td>200 Medley Relay</td>
+              <td>
+                
+                  <a href="https://www.swimcloud.com/results/236898/event/3/?id=96837282#time96837282">1:31.73</a>
+                
+              </td>
+              <td>Walsh, Walsh, Cuomo, Douglass</td>
+              <td>Feb. 14, 2023</td>
+              <td>University of Virginia</td>
+              <td>ACC Championships</td>
+                        
+            <tr>
+              <td>400 Medley Relay</td>
+              <td>
+                
+                  <a href="https://www.swimcloud.com/results/236898/event/30/?id=96837259#time96837259">3:21.80</a>
+                
+              </td>
+              <td>Walsh, Walsh, Douglass, Canny</td>
+              <td>Feb. 17, 2023</td>
+			  <td>University of Virginia</td>
+              <td>ACC Championships</td>
+               
+      </tbody>
+      </div>
+      <td class= "td2">&nbsp;</td>
+
+      
+      
+
+
+<tr>
+              <th class= "th2">Relay Splits</th>
+           </tr>
+
+<tr>
+              <td style='color:gray';>Split</td1>
+              <td style='color:gray';>Time</td1>
+              <td style='color:gray';>Name</td1>
+              <td style='color:gray';>Date</td1>
+              <td style='color:gray';>Team</td1>
+              <td style='color:gray';>Meet</td1>
+
+				<tr>
+              <td>50 Back</td>
+              <td>
+                                  <a href="https://www.swimcloud.com/results/236898/event/3/?id=96837282#time96837282">22.65</a>
+                
+              </td>
+              <td>Gretchen Walsh</td>
+              <td>Feb. 14, 2023</td>
+              <td>University of Virginia</td>
+              <td>ACC Championships</td>
+              <tr>
+
+
+<td>50 Breast</td>
+              <td>
+                                  <a href="https://www.swimcloud.com/results/104734/event/14/0/?id=14636597&agegroup=UNOV#time14636597">25.38</a>
+                
+              </td>
+              <td>Lilly King</td>
+              <td>March 14, 2018</td>
+              <td>University of Indiana-Bloomington</td>
+              <td>NCAA Division I Championships</td>
+                          
+                          <tr>
+            <td>50 Fly</td>
+              <td>
+                                  <a href="https://www.swimcloud.com/results/241241/event/3/?id=84353903#time84353903">21.91</a>
+            </td>
+              <td>Gretchen Walsh</td>
+              <td>Oct. 22, 2022</td>
+              <td>University of Virginia</td>
+              <td>Virginia vs. Florida</td>
+                    
+                    <tr>
+            <td>50 Free</td>
+              <td>
+                                  <a href="https://www.swimcloud.com/results/166281/event/7/?id=34614283#time34614283">20.27</a>
+            </td>
+              <td>Anna Hopkin</td>
+              <td>Feb. 19, 2020</td>
+              <td>University of Arkansas-Fayetteville</td>
+              <td>SEC Championships</td>
+              
+            <tr>
+            <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+<tr>
+              <td>100 Back</td>
+              <td>
+                
+                  <a href="https://www.swimcloud.com/results/194774/event/12/0/?id=60997750&agegroup=UNOV#time60997750" title="This time was not set in a relay. There is no flying start for backstroke, so this time is the fastest in history for a 100 backstroke.">48.74*</a>
+                
+              </td>
+              <td>Katharine Berkoff</td>
+              <td>March 18, 2022</td>
+              <td>North Carolina State University</td>
+              <td>NCAA Division I Championships</td>
+              
+            
+            <tr>
+            <td>100 Breast</td>
+              <td>
+                                  <a href="https://www.swimcloud.com/results/118613/event/7/0/?id=25558776&agegroup=UNOV#time25558776">55.67</a>
+            </td>
+              <td>Lilly King</td>
+              <td>March 22, 2019</td>
+              <td>University of Indiana-Bloomington</td>
+              <td>NCAA Division I Championships</td>
+                          
+            <tr>
+            <td>100 Fly</td>
+              <td>
+                                                <a href="https://www.swimcloud.com/results/236898/event/30/?id=96837259#time96837259">48.25</a>
+            </td>
+              <td>Kate Douglass</td>
+              <td>Feb. 17, 2023</td>
+              <td>University of Virginia</td>
+              <td>ACC Championships</td>
+                          
+            <tr>
+            <td>100 Free</td>
+              <td>
+                                  <a href="https://www.swimcloud.com/results/28724/event/6/?id=5925196#time5925196">45.45</a>
+            </td>
+              <td>Simone Manuel</td>
+              <td>March 21, 2015</td>
+              <td>Stanford University</td>
+              <td>NCAA Division I Championships</td>
+             
+            <tr>
+            <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+			<tr>
+            <td>200 Free</td>
+              <td>
+                                  <a href="https://www.swimcloud.com/results/104734/event/1/?id=14636664#time14636664">1:39.87</a>
+            </td>
+              <td>Katie Ledecky</td>
+              <td>March 14, 2018</td>
+              <td>Stanford Unviersity</td>
+              <td>NCAA Division I Championships</td>
+
+      </table>
+      </div>
+      </div>
+      <td class= "td2">&nbsp;</td>
+
+</body>
+  </html>
+
 
