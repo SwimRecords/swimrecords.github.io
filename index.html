@@ -21,10 +21,12 @@
         	padding-right: 82px;} 
                               
     h2 {
-        	padding: 1px;
+            padding: 1px;
 		    text-align: center;
 		    font-size: 30px;
-        	font-family:Verdana, sans-serif;}
+        	font-family:Verdana, sans-serif;
+            position: relative;
+            top: 30px;}
             
     p {
        		padding: 10px;
@@ -42,7 +44,7 @@
        		border-collapse: separate;
 		    border-spacing: 8px} 
                 
-   	input[type=submit] {
+    input[type=submit] {
 		    background-color: none;
 		    color: black;
 		    padding: 15px 10px;
@@ -55,13 +57,18 @@
        		display: flex;
   		    justify-content: center;
   		    align-items: center;
-  		    height: 25;}
+  		    height: 25;
+            position: relative;
+            top: 150px;
+            margin-left: 40px}
         
     .buttoncontainer2        {
        		display: flex;
   		    justify-content: center;
   		    align-items: center;
-  		    height: 25;}
+  		    height: 25;
+            position:relative;
+            top: 150px;}
 			                       
     .button {
       	 	font-size: 15px;
@@ -78,7 +85,8 @@
             -webkit-transition-duration: 0.3s;
             transition-duration: 0.3s;
             -webkit-transition-property: box-shadow, transform;
-            transition-property: box-shadow, transform;}
+            transition-property: box-shadow, transform;
+            margin: 0 100px;}
 
         .button:hover {
        	 	box-shadow: 0 0 20px rgba(253, 237, 14, 0.5);
@@ -143,14 +151,10 @@
 <body>
 
 
-
-
-
 <!-- Title -->
 <h2>SHORT COURSE YARDS (SCY) </h2>
 <h2> SWIMMING RECORDS </h2>
 
-<div>
 <!-- MEN'S SCY RECORDS BUTTON -->
 <div class="buttoncontainer">
 <button class="button2" onclick="goToWebsite('/men/')"> <b> Men's </b> Records <br>
@@ -158,14 +162,13 @@
 <!-- WOMEN'S SCY RECORDS BUTTON -->
 <div class="buttoncontainer">
 <button class="button3" onclick="goToWebsite('/women/')"> <b> Women's </b> Records <br>
-	</div>
-	<td>&nbsp;</td>
-	<div>
+</div>
+<td>&nbsp;</td>
+<div>
         
 <!-- INTERESTING FACTS BUTTON -->
 <div class="buttoncontainer2">
 <button class="button" onclick="goToWebsite('/facts/')"> <b> Interesting Facts <b> <br>
-</div>
 </div>
 
 
