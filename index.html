@@ -387,20 +387,18 @@ background-color: var(--blue-3);}
     grid-auto-flow: row;
     grid-template-areas:
       "subject-1 subject-2 subject-3";
-      padding: var(--most-used-em);}
+}
   
   .subject-1 {
     justify-self: center;
     align-self: center;
     grid-area: subject-1;
-    padding: var(--most-used-em);
     max-width: 25%;}
   
   .subject-2 {
     justify-self: center;
     align-self: center;
     grid-area: subject-2;
-    padding: var(--most-used-em);
     max-width: 25%;
   }
   
@@ -408,7 +406,6 @@ background-color: var(--blue-3);}
     justify-self: center;
     align-self: center;
     grid-area: subject-3;
-    padding: var(--most-used-em);
     max-width: 25%;
   }
 
@@ -439,304 +436,6 @@ background-color: var(--blue-3);}
     font-size: 2em;
   }
 }
-#about{
-    display: flex;
-    flex-direction: row;
-    padding: var(--most-used-em);
-    background-color: var(--blue-3);
-}
-.kibera-1{
-    width: 500px;
-    height: 281px;
-    transition: 0.5;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-image: url(media/kibera-1.png);
-    background-position: center;
-    background-size: cover;
-}
-
-.kibera-1 h3{
-    opacity: 0;
-    transform: scale(0);
-    transition: 0.8s;
-    color: var(--light);
-    padding: var(--most-used-em);
-    font-size: var(--frequent-font-size);
-}
-
-.kibera-1:hover{
-    box-shadow: 0 0 0 200px rgba(0, 0, 0, 0.9) inset;
-}
-
-.kibera-1:hover h3{
-    opacity: 1;
-    transform: scale(1);
-}
-
-
-.kibera-2{
-    width: 500px;
-    height: 281px;
-    transition: 0.5;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-image: url(media/kibera-2.png);
-    background-position: center;
-    background-size: cover;
-}
-
-.kibera-2 h3{
-    opacity: 0;
-    transform: scale(0);
-    transition: 0.8s;
-    color: var(--light);
-    padding: var(--most-used-em);
-    font-size: var(--frequent-font-size);
-}
-
-.kibera-2:hover{
-    box-shadow: 0 0 0 200px rgba(0, 0, 0, 0.9) inset;
-}
-
-.kibera-2:hover h3{
-    opacity: 1;
-    transform: scale(1);
-}
-
-
-.kibera-3{
-    width: 500px;
-    height: 281px;
-    transition: 0.5;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-image: url(media/kibera-3.jpg);
-    background-position: center;
-    background-size: cover;
-}
-
-.kibera-3 h3{
-    opacity: 0;
-    transform: scale(0);
-    transition: 0.8s;
-    color: var(--light);
-    padding: var(--most-used-em);
-    font-size: var(--frequent-font-size);
-}
-
-.kibera-3:hover{
-    box-shadow: 0 0 0 200px rgba(0, 0, 0, 0.9) inset;
-}
-
-.kibera-3:hover h3{
-    opacity: 1;
-    transform: scale(1);
-}
-
-
-.kibera-4{
-    width: 500px;
-    height: 281px;
-    transition: 0.5;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-image: url(media/kibera-4.jpg);
-    background-position: center;
-    background-size: cover;
-}
-
-.kibera-4 h3{
-    opacity: 0;
-    transform: scale(0);
-    transition: 0.8s;
-    color: var(--light);
-    padding: var(--most-used-em);
-    font-size: var(--frequent-font-size);
-}
-
-.kibera-4:hover{
-    box-shadow: 0 0 0 200px rgba(0, 0, 0, 0.9) inset;
-}
-
-.kibera-4:hover h3{
-    opacity: 1;
-    transform: scale(1);
-}
-
-#visit{
-  background-color: var(--blue-1);
-}
-
-#visit a
-{
-  display: inline-block;
-  font-size: 0.5em;
-  background: var(--blue-2);
-  padding: 10px 30px;
-  text-transform: uppercase;
-  text-decoration: none;
-  font-weight: 500;
-  margin-top: 10px;
-  color: var(--light);
-  letter-spacing: 2px;
-  transition: 0.2s;
-}
-#visit a:focus
-{
-  background-color: var(--blue-2);
-  color: var(--light);
-}
-
-#visit a:active{
-  background-color: var(--blue-2);
-}
-
-
-@media (max-width: 768px){
-    #about{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-
-}
-
-.kibera-1, .kibera-2, .kibera-3, .kibera-4{
-    max-width: 95vw;
-}
-
-}
-
-#visit{
-  display: none;
-}
-
-.founder-grid {  display: grid;
-    grid-template-columns: 0.7fr 1.3fr;
-    grid-template-rows: 1fr;
-    gap: 0px 0px;
-    grid-auto-flow: row;
-    justify-content: center;
-    align-content: center;
-    justify-items: center;
-    align-items: center;
-    grid-template-areas:
-      "leonard-photo leonard-bio";
-      padding: var(--most-used-em);
-      background-color: var(--blue-1);
-
-  }
-  
-  .team-photo {
-    justify-self: center;
-    align-self: center;
-    grid-area: leonard-photo;
-    padding: var(--most-used-em);
-  }
-  
-  .team-bio {
-    justify-self: center;
-    align-self: center;
-    grid-area: leonard-bio;
-    text-align: center;
-    color: var(--light);
-    padding: 5em;
-    font-size: var(--frequent-font-size);
-  }
-  @media (max-width: 768px){
-    .founder-grid{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-
-}
-
-.team-bio{
-    padding: var(--most-used-em);
-    
-}
-
-  }
-
-  #fundraising a
-  {
-    display: inline-block;
-    font-size: 0.5em;
-    background: var(--blue-2);
-    padding: 10px 30px;
-    text-transform: uppercase;
-    text-decoration: none;
-    font-weight: 500;
-    margin-top: 10px;
-    color: var(--light);
-    letter-spacing: 2px;
-    transition: 0.2s;
-  }
-  #fundraising a:focus
-  {
-    background-color: var(--blue-1);
-    color: var(--light);
-  }
-
-  #fundraising a:active{
-    background-color: var(--blue-1);
-  }
-
-
-
-  .section-title-contact{
-    color: var(--light);
-    text-align: center;
-    font-size: 3em;
-    padding: var(--most-used-em);
-    background-color: var(--blue-1);
-    }
-
-  .contact-container {  display: flex;
-flex-direction: column;
-align-items: center;
-background-color: var(--blue-1);
-padding: var(--most-used-em);
-}
-
-.contact-container h3{
-  color: var(--light);
-  text-align: center;
-}
-
-.contact-img{
-  width: 100px;
-  padding: var(--most-used-em);
-}
-
-.podcast-img, .email-img{
-  width: 150px;
-  padding: var(--most-used-em);
-}
-
-.newsletter{
-  padding: 1em;
-}
-
-.volunteer-btn{
-  
-    display: inline-block;
-    font-size: 0.5em;
-    background: var(--blue-2);
-    padding: 10px 30px;
-    text-transform: uppercase;
-    text-decoration: none;
-    font-weight: 500;
-    margin-top: 10px;
-    color: var(--light);
-    letter-spacing: 2px;
-    transition: 0.2s;
-    border: none;
-  }
 
 
 .footer{
@@ -862,7 +561,7 @@ padding: var(--most-used-em);
          <div class="collapse navbar-collapse" id="navbarNav">
            <ul class="navbar-nav">
              <li class="nav-item">
-               <a class="nav-link active" aria-current="page" href="#men">Men</a>
+               <a class="nav-link" href="#men">Men</a>
              </li>
              <li class="nav-item">
                <a class="nav-link" href="#women">Women</a>
@@ -883,7 +582,7 @@ padding: var(--most-used-em);
     <header>
       <div class="toggle"></div>
     </header>
-    <img src="/images/pool.jpg"> </img>
+    <img src="/images/underwater.jpg"> </img>
     <div class="overlay"></div>
     <div class="hero-text">
       <h3>Short Course Yards Swim Records</h3>
