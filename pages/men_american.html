@@ -41,7 +41,9 @@ permalink: /men_american/
         font-family: 'Roboto', sans-serif;
         color: white;
         background-image: url(/images/water.jpg);
-        background-color: rgb(36, 133, 197);}
+        background-color: rgb(36, 133, 197);
+        background-size: cover;
+        background-repeat: no-repeat;}
        
 		td {
         padding: 8px;
@@ -102,12 +104,6 @@ permalink: /men_american/
 			  text-align: left;
 			  border-bottom: 1px solid #ddd;
         font-size: 25px;}
-                             
-    table {
-        border-collapse: separate;
-			  border-spacing: 8px;
-        background-color: rgba(2, 2, 2, 0.25);
-        border-radius: 10px}
                                   
     input[type=submit] {
 			  background-color: none;
@@ -173,7 +169,16 @@ permalink: /men_american/
         left: 0;
         width: 100%;
         height: 100%;
-        mix-blend-mode: overlay;}
+        mix-blend-mode: overlay;
+        background: (black)}
+
+      table {
+        position: relative;
+        z-index: 1;
+        border-collapse: separate;
+			  border-spacing: 8px;
+        background-color: rgba(2, 2, 2, 0.25);
+        border-radius: 10px}
 
 	</style>
     <script>
@@ -184,8 +189,7 @@ permalink: /men_american/
 	</head>
 
 	<body>
-<img src="/images/underwater.jpeg"></img>
-<div class="overlay"></div>
+<div class="overlay">
 <!-- BACK BUTTON -->
 <div>
 <button class="button3" onclick="goToWebsite('/#men')">Back <br>
@@ -424,7 +428,7 @@ permalink: /men_american/
                                                    
         </tbody>
       </div>
-      
+      </body>
 <td class= "td2">&nbsp;</td>
 
 
@@ -655,7 +659,7 @@ permalink: /men_american/
       </div>
       </div>
       <td class= "td2">&nbsp;</td>
-
+    </div>
 </body>
   </html>
 
