@@ -103,100 +103,56 @@ header .logo
   align-items: center;
   background: var(--dark);
   transition: 0.5s;
-  z-index: 2;
-}
-.home.active
-{
-  right: 300px;
-}
+  z-index: 2;}
 
-.home img
-{
+.home.active{
+  right: 300px;}
+
+.home img{
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
   object-fit: cover;
-  opacity: 0.3;
-}
-.overlay
-{
+  opacity: 0.3;}
+
+.overlay{
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  mix-blend-mode: overlay;
-}
-.hero-text
-{
-  position: relative;
-  z-index: 10;
-}
+  mix-blend-mode: overlay;}
 
-.hero-text h3
-{
+.hero-text{
+  position: relative;
+  z-index: 10;}
+
+.hero-text h3{
   font-size: 52px;
   font-weight: 800;
   color: var(--light);
   line-height: var(--most-used-em);
   text-transform: uppercase;
-  margin-bottom:10px;
-}
-.hero-text h4
-{
+  margin-bottom:10px;}
+
+.hero-text h4{
   font-size: 20px;
   font-weight: 700;
   color: var(--light);
   line-height: var(--most-used-em);
-  margin-bottom:100px;
-}
-.hero-text p
-{
-  font-size: 14px;
-  color: var(--light);
-  margin: 22px 0;
-  font-weight: 400;
-  max-width: 700px;
-  margin-left:30px;
-}
-
-
-.hero-text a
-{
-  display: inline-block;
-  font-size: var(--most-used-em);
-  background: var(--blue-2);
-  padding: 10px 30px;
-  text-transform: uppercase;
-  text-decoration: none;
-  font-weight: 500;
-  margin-top: 10px;
-  color: var(--light);
-  letter-spacing: 2px;
-  transition: 0.2s;
-}
-.hero-text a:hover
-{
-  background-color: var(--blue-3);
-  color: var(--light);
-}
-
+  margin-bottom:100px;}
 
 #subjects-section{
     background-color: var(--blue-1);
-    margin-top: 20px
-}
-
+    margin-top: 20px}
 
 @media (min-width:50%) {
   #subjects-section{
     max-height: 25%;
     max-width: 25%;
-    margin-top: 20px;
-  }
-}
+    margin-top: 20px;}}
 
 .section-title h1{
         
@@ -261,8 +217,7 @@ header .logo
         height: auto;}
 
 .subject a {
-      text-decoration:none;
-}
+      text-decoration:none;}
 
 .subject-1 {
     order: 1;}
@@ -279,32 +234,24 @@ header .logo
     .subjects{
         display: flex;
         flex-direction: column;
-        max-width: 100vw;
-    }}
+        max-width: 100vw;}}
 
-@media (max-width: 991px)
-{
+@media (max-width: 991px){
   .home,
-  .home header
-  {
-    padding: 40px;
-  }
-  .text h2
-  {
-    font-size: 3em;
-  }
-  .text h3
-  {
-    font-size: 2em;
-  }}
-
+  .home header{
+    padding: 40px;}
+  .text h2{
+    font-size: 3em;}
+  .text h3{
+    font-size: 2em;}}
 
 .footer{
   width: 100%;
   text-align: center;
   padding: 30px 0;
-  background-color: var(--blue-1);}
-
+  background-color: var(--blue-1);
+  color: var(--light);
+  font-size: var(--most-used-em);}
 
 .fa{
   color: #ffffff;
@@ -312,9 +259,9 @@ header .logo
   cursor: pointer;
   padding: 18px 0;}
 
-.footer h1{
-  color: var(--light);
-  font-size: var(--most-used-em);}
+.footer p{
+  color: lightgray;
+  font-size:12px;}
 
 .formster{
   display: none;
@@ -326,18 +273,11 @@ header .logo
 @media (max-width: 768px){
   .formster{
       height: 45em;
-      width: max-content;
-
-}
-}
- 
+      width: max-content;}}
 </style>
 
 
 <body>
-
-
-
   <section class="home" id="home">
     <header>
       <div class="toggle"></div>
@@ -349,7 +289,6 @@ header .logo
       <h4>The complete database of the fastest times in history.</h4>
     </div>
   </section>
-
 
 
   </section>
@@ -391,7 +330,6 @@ header .logo
         </div>
         </div>
         </section>
-
 
 
 <section id="women">
