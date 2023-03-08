@@ -25,12 +25,6 @@ border-bottom: 2px solid black;}
 
 <br> </br>
 <body>
-  <script>
-    var eventDate = new Date("2009-03-26"); //Today's date
-    var today = new Date(); //Current date
-    var diffDays = Math.floor((today-eventDate) / (1000*60*60*24)); //Calculate difference in days
-    document.getElementById("days-since").innerHTML = diffDays; //Update the text of the span element
-  </script>
 <table>
              
 	<tr> <h class = "top"> <u> <b> Men's Facts </b> </u> </h> </tr>
@@ -97,7 +91,14 @@ border-bottom: 2px solid black;}
   	<tr> <blockquote> - Also mentioned earlier, Regan Smith's 200 Back time of 1:47.16 was swum outside of the NCAAs. </blockquote> </tr>
    	<tr> <blockquote> - Gretchen Walsh has the 100 IM record from a duel meet against Texas in November of 2022. This event, according to a video of the race, was swum unsuited, which is absolutely mindblowing. </blockquote> </tr>
     	<tr> <blockquote> - Kate Douglass set the 200 Breast record at the Cavalier Invitational in early February of 2023, just two weeks before the ACC Championships. </blockquote> </tr>
-                    
+           
+      <script>
+        var eventDate = new Date("March 26, 2009"); //Event's date
+        var today = new Date(); //Current date
+        var diffDays = Math.floor((today-eventDate) / (1000*60*60*24)); //Calculate difference in days
+        document.getElementById("days-since").innerHTML = diffDays; //Update the text of the span element
+      </script>
+      
 </table>
 </body>
 </html>   
