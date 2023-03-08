@@ -29,11 +29,11 @@ border-bottom: 2px solid black;}
              
 	<tr> <h class = "top"> <u> <b> Men's Facts </b> </u> </h> </tr>
         
-<tr> <p> <b> The oldest individual record has survived for "XXXX days." </b> </p> </tr>
+<tr> <p> <b> The oldest individual record has survived for <span id="days-since-clark"> </span> days. </b> </p> </tr>
     	<tr> <blockquote> - That record is Clark Smith's 1000 Free (8:33.93) from December 6th of 2015. This event, however, is not individually swum at NCAAs.</blockquote> </tr>
-    	<tr> <blockquote> - The oldest NCAA event is Ryan Murphy's 200 Back (1:35.73) from March 26, 2016, which has survived for <span id="days-since"> </span> days. </blockquote> </tr>    
+    	<tr> <blockquote> - The oldest NCAA event is Ryan Murphy's 200 Back (1:35.73) from March 26, 2016, which has survived for <span id="days-since-murph"> days. </blockquote> </tr>    
 
-<tr> <p> <b> The oldest relay record has survived for "XXXX days." </b> </p> </tr>
+<tr> <p> <b> The oldest relay record has survived for <span id="days-since-2f"> </span> days. </b> </p> </tr>
 	<tr> <blockquote> - That record is Auburn's 200 Free Relay (1:14.08) from March 26, 2009. Since this record was set, the 50 Free record has dropped by 0.87 and the 100 Free by 1.02. Will this record be broken in 2023? </blockquote> </tr>          
 
 <tr> <p> <b> Every NCAA record is also a US Open record. No current US Open records were set outside of the NCAA. </b> </p> </tr> 
@@ -93,12 +93,18 @@ border-bottom: 2px solid black;}
     	<tr> <blockquote> - Kate Douglass set the 200 Breast record at the Cavalier Invitational in early February of 2023, just two weeks before the ACC Championships. </blockquote> </tr>
            
       <script>
-        var eventDate = new Date("March 26, 2009"); //Event's date
+        var eventDate2F = new Date("March 26, 2009"); //200 Free Relay
+        var eventDateClark = new Date("December 6, 2015"); //Clark Smith's 1000 Free
+        var eventDateMurph = new Date ("March 26, 2016"); //Ryan Murphy's 200 Back
         var today = new Date(); //Current date
-        var diffDays = Math.floor((today-eventDate) / (1000*60*60*24)); //Calculate difference in days
-        document.getElementById("days-since").innerHTML = diffDays; //Update the text of the span element
+        var diffDays2F = Math.floor((today-eventDate2F) / (1000*60*60*24)); //Calculate days since 200 Free Relay
+        var diffDaysClark = Math.floor((today-eventDateClark) / (1000*60*60*24)); //Calculate days since Clark Smith's 1000 Free
+        var diffDaysMurph= Math.floor((today-eventDateMurph) / (1000*60*60*24)); //Calculate days since Ryan Murphy's 200 Back
+        document.getElementById("days-since-2f").innerHTML = diffDays2F;
+        document.getElementById("days-since-clark").innerHTML = diffDaysClark;
+        document.getElementById("days-since-murph").innerHTML = diffDaysMurph;
       </script>
-      
+
 </table>
 </body>
 </html>   
