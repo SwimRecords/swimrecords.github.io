@@ -40,7 +40,7 @@ permalink: /men_american/
     body {
         font-family: 'Roboto', sans-serif;
         color: white;
-        background-image: url(/images/loop1.png);
+        background-image: url(/images/loop2.png);
         background-size: cover;
         background-attachment: fixed;
         background-repeat: no-repeat;}
@@ -171,24 +171,13 @@ permalink: /men_american/
 	</style>
   </head>
 
-
-	<body onload="setRandomBackground">
-
     <script>
         function goToWebsite(url) {
           window.location.href = url;}
 
-        function setRandomBackground() {
-          var images = [
-            "loop1.png",
-            "loop2.png",
-          ];
-          var randomIndex = Math.floor(Math.random() * images.length);
-          var randomImage = images[randomIndex];
-          document.body.style.backgroundImage = "url('/images/)" + randomImage + "')"}
         </script>
 
-
+<body>
 <!-- BACK BUTTON -->
 <div>
 <button class="button3" onclick="goToWebsite('/#men')">Back <br>
