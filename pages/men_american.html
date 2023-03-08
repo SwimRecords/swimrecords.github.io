@@ -166,10 +166,14 @@ permalink: /men_american/
       text-decoration: none;}
 
     .link:hover {
-      color: cyan;
-      font-weight: 200;}
-
+      color: cyan;}
+  
 	</style>
+  </head>
+
+
+	<body onload="setRandomBackground"></body>
+
     <script>
         function goToWebsite(url) {
           window.location.href = url;}
@@ -179,12 +183,12 @@ permalink: /men_american/
             "loop1.png",
             "loop2.png",
           ];
-          var randomIndex = Math.floor(Math.random()*images.length);
+          var randomIndex = Math.floor(Math.random() * images.length);
           var randomImage = images[randomIndex];
-          document.body.style.backgroundImage = "url(/images/)" + randomImage + "')"}
+          document.body.style.backgroundImage = "url('/images/)" + randomImage + "')"}
         </script>
-	</head>
-	<body onload="setRandomBackground">
+
+
 <!-- BACK BUTTON -->
 <div>
 <button class="button3" onclick="goToWebsite('/#men')">Back <br>
