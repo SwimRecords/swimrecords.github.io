@@ -10,7 +10,6 @@ permalink: /facts/
 </head>
 
 <style>
-
 body {
 font-family: 'Roboto', sans-serif;
 font-size: 16px;}
@@ -20,20 +19,25 @@ font-size: 18px;}
 
 .top {
 font-size: 20px;
-border-bottom: 2px solid black:}
+border-bottom: 2px solid black;}
 
 </style>
 
-
 <br> </br>
 <body>
+  <script>
+    var eventDate = new Date("2009-03-26"); //Today's date
+    var today = new Date(); //Current date
+    var diffDays = Math.floor((today-eventDate) / (1000*60*60*24)); //Calculate difference in days
+    document.getElementById("days-since").innerHTML = diffDays; //Update the text of the span element
+  </script>
 <table>
              
 	<tr> <h class = "top"> <u> <b> Men's Facts </b> </u> </h> </tr>
         
 <tr> <p> <b> The oldest individual record has survived for "XXXX days." </b> </p> </tr>
     	<tr> <blockquote> - That record is Clark Smith's 1000 Free (8:33.93) from December 6th of 2015. This event, however, is not individually swum at NCAAs.</blockquote> </tr>
-    	<tr> <blockquote> - The oldest NCAA event is Ryan Murphy's 200 Back (1:35.73) from March 26, 2016, which has survived for "XXXX days." </blockquote> </tr>    
+    	<tr> <blockquote> - The oldest NCAA event is Ryan Murphy's 200 Back (1:35.73) from March 26, 2016, which has survived for <span id="days-since"> </span> days. </blockquote> </tr>    
 
 <tr> <p> <b> The oldest relay record has survived for "XXXX days." </b> </p> </tr>
 	<tr> <blockquote> - That record is Auburn's 200 Free Relay (1:14.08) from March 26, 2009. Since this record was set, the 50 Free record has dropped by 0.87 and the 100 Free by 1.02. Will this record be broken in 2023? </blockquote> </tr>          
