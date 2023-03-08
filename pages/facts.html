@@ -31,7 +31,7 @@ border-bottom: 2px solid black;}
         
 <tr> <p> <b> The oldest individual record has survived for <span id="days-since-clark"> </span> days. </b> </p> </tr>
     	<tr> <blockquote> - That record is Clark Smith's 1000 Free (8:33.93) from December 6th of 2015. This event, however, is not individually swum at NCAAs.</blockquote> </tr>
-    	<tr> <blockquote> - The oldest NCAA event is Ryan Murphy's 200 Back (1:35.73) from March 26, 2016, which has survived for <span id="days-since-murph"> days. </blockquote> </tr>    
+    	<tr> <blockquote> - The oldest NCAA event is Ryan Murphy's 200 Back (1:35.73) from March 26, 2016, which has survived for <span id="days-since-murph"></span> days. </blockquote> </tr>    
 
 <tr> <p> <b> The oldest relay record has survived for <span id="days-since-2f"> </span> days. </b> </p> </tr>
 	<tr> <blockquote> - That record is Auburn's 200 Free Relay (1:14.08) from March 26, 2009. Since this record was set, the 50 Free record has dropped by 0.87 and the 100 Free by 1.02. Will this record be broken in 2023? </blockquote> </tr>          
@@ -40,7 +40,7 @@ border-bottom: 2px solid black;}
              
 <tr> <p> <b> 3 individual US Open records were set by non-Americans.</b> </p> </tr>
 	<tr> <blockquote> - Leon Marchand of France has the 200 IM record in 1:37.69.</blockquote> </tr>
-    	<tr> <blockquote> - Leon Marchand also has the 400 IM record in 3:31.88.</blockquote> </tr>
+    	<tr> <blockquote> - Leon Marchand also has the 400 IM record in 3:31.57.</blockquote> </tr>
 	<tr> <blockquote> - Bjorn Seeliger of Sweden led off Cal-Berkeley's 200 Medley Relay with a 50 Back time of 20.08.</blockquote> </tr>
 
 <tr> <p> <b> 3 relay US Open records were set by a non-American team.</b> </p> </tr> 
@@ -63,10 +63,10 @@ border-bottom: 2px solid black;}
     
 <tr> <h class = "top"> <u> <b> Women's Facts </b> </u> </blockquote> </tr>
         
-<tr> <p> <b> The oldest individual record has survived for "XXXX days." </b> </p> </tr>
-    	<tr> <blockquote> - That record is Missy Franklin's 200 Free (1:39.10) from March 21. 2015. No one since has swam the 200 Free under 1:40, even from a flying relay start. This is one of the most impressive individual records out there in SCY swimming.</blockquote> </tr>
+<tr> <p> <b> The oldest individual record has survived for <span id="days-since-missy"></span> days. </b> </p> </tr>
+    	<tr> <blockquote> - That record is Missy Franklin's 200 Free (1:39.10) from March 21, 2015. No one since has swam the 200 Free under 1:40, and only one has swam it from a flying relay start (Katie Ledecky's 1:39.87). This is one of the most impressive individual records out there in SCY swimming.</blockquote> </tr>
     
-<tr> <p> <b> The oldest relay record has survived for "XXXX days." </b> </p> </tr>
+<tr> <p> <b> The oldest relay record has survived for <span id="days-since-8f"></span> days. </b> </p> </tr>
     	<tr> <blockquote> - That record is Stanford's 800 Free Relay (6:45.91) from March 15, 2017. No team besides Stanford has been under 6:50.00 since. </blockquote> </tr>
           
         
@@ -93,28 +93,24 @@ border-bottom: 2px solid black;}
     	<tr> <blockquote> - Kate Douglass set the 200 Breast record at the Cavalier Invitational in early February of 2023, just two weeks before the ACC Championships. </blockquote> </tr>
            
       <script>
-        var eventDate2F = new Date("March 26, 2009"); //200 Free Relay
+        var eventDate2F = new Date("March 26, 2009"); //Auburn's 200 Free Relay (M)
         var eventDateClark = new Date("December 6, 2015"); //Clark Smith's 1000 Free
         var eventDateMurph = new Date ("March 26, 2016"); //Ryan Murphy's 200 Back
+        var eventDateMissy = new Date ("March 21, 2015"); //Missy Franklin's 200 Free
+        var eventDate8F = new Date ("March 15, 2017"); //Stanford's 800 Free Relay (W)
         var today = new Date(); //Current date
-        var diffDays2F = Math.floor((today-eventDate2F) / (1000*60*60*24)); //Calculate days since 200 Free Relay
+        var diffDays2F = Math.floor((today-eventDate2F) / (1000*60*60*24)); //Calculate days since Auburn's 200 Free Relay (M)
         var diffDaysClark = Math.floor((today-eventDateClark) / (1000*60*60*24)); //Calculate days since Clark Smith's 1000 Free
         var diffDaysMurph= Math.floor((today-eventDateMurph) / (1000*60*60*24)); //Calculate days since Ryan Murphy's 200 Back
+        var diffDaysMissy= Math.floor((today-eventDateMissy) / (1000*60*60*24)); //Calculate days since Missy Franklin's 200 Free
+        var diffDays8F= Math.floor((today-eventDate8F) / (1000*60*60*24)); //Calculate days since Stanford's 800 Free Relay (W)
         document.getElementById("days-since-2f").innerHTML = diffDays2F;
         document.getElementById("days-since-clark").innerHTML = diffDaysClark;
         document.getElementById("days-since-murph").innerHTML = diffDaysMurph;
+        document.getElementById("days-since-missy").innerHTML = diffDaysMissy;
+        document.getElementById("days-since-8f").innerHTML = diffDays8F;
       </script>
 
 </table>
 </body>
 </html>   
-                
-
-
-
-
-
-
-
-
-
