@@ -293,60 +293,7 @@ header .logo
   background-color: var(--blue-3);
   color: var(--light);
 }
-.social
-{
-  position: absolute;
-  z-index: 10;
-  bottom: 20px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.social li
-{
-  list-style: none;
-}
-.social li a
-{
-  display: inline-block;
-  margin-right: 20px;
-  filter: invert(1);
-  transform: scale(0.5);
-  transition: 0.5s;
-}
-.social li a:hover
-{
-  transform: scale(0.5) translateY(-15px);
-}
-.menu
-{
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 300px;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.menu ul
-{
-  position: relative;
-}
-.menu ul li
-{
-  list-style: none;
-}
-.menu ul li a
-{
-  text-decoration: none;
-  font-size: 24px;
-  color: var(--dark);
-}
-.menu ul li a:hover
-{
-  color: var(--blue-3); 
-}
+
 
 #subjects-section{
     background-color: var(--blue-1);
@@ -373,6 +320,12 @@ header .logo
         text-align: center;
         font-weight: 500;
         text-shadow: 2px 2px black;}
+
+.subjects h2:hover{
+        color: cyan;
+        text-align: center;
+        font-weight: 800;
+        text-shadow: 2px 2px black;}     
 
 .subjects p {
         text-align: center;
@@ -417,6 +370,10 @@ header .logo
 .subject img {
         max-width: 20%;
         height: auto;}
+
+.subject a {
+      text-decoration:none;
+}
 
 .subject-1 {
     order: 1;}
