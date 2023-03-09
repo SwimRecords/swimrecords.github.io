@@ -1,0 +1,437 @@
+---
+title: Relay Split Log
+permalink: /split_log/
+---
+
+<!DOCTYPE html>
+<html>
+<head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-GC80TR99XW"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-GC80TR99XW');
+</script>
+<title>Relay Split Log</title>
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="/images/logoo.jpg">
+  <link rel="stylesheet" type="text/css" href="/style.css">
+  <style>
+    body {
+        background-image: url(/images/dressel.png);
+        background-size: cover;
+        background-attachment: fixed;
+        background-repeat: no-repeat;}
+  </style>
+  </head>
+
+    <script>
+        function goToWebsite(url) {
+          window.location.href = url;}
+
+        </script>
+
+<body>
+<!-- BACK BUTTON -->
+<div>
+<button class="button3" onclick="goToWebsite('/#men')">Back <br>
+</div>
+		
+		
+<h2>Top 5 Fastest Relay Splits</h2>
+<table>   
+
+<tr>
+              <th class= "th2">Men</th>
+           </tr>
+
+
+      
+				<tr>
+    <td class="gold">50 Back</td>
+          <tr><td>
+              <a href="https://www.swimcloud.com/results/194776/event/1/?id=61391401#time61391401" class="link">20.08</a>
+          	</td>
+        <td>Bjorn Seeliger</td>
+          	<td class= "td3">Mar. 23, 2022</td>
+          	<td class= "td3">University of California-Berkeley</td>
+          	<td class= "td3">NCAA Division I Championships</td>
+
+		  <tr><td>
+			<a href="https://www.swimcloud.com/results/194776/event/1/?id=61391411#time61391411" class="link">20.16</a>
+			</td>
+		<td>Kacper Stokowski</td>
+			<td class= "td3">Mar. 23, 2022</td>
+			<td class= "td3">North Carolina State University</td>
+			<td class= "td3">NCAA Division I Championships</td>
+
+			<tr><td>
+			<a href="https://www.swimcloud.com/results/194776/event/1/?id=61391402#time61391402" class="link">20.19</a>
+			</td>
+		<td>Adam Chaney</td>
+			<td class= "td3">Mar. 23, 2022</td>
+			<td class= "td3">University of Florida</td>
+			<td class= "td3">NCAA Division I Championships</td>
+
+			<tr><td>
+			<a href="https://www.swimcloud.com/results/51000/event/14/0/?id=26010353&agegroup=UNOV#time26010353" class="link">20.20</a>
+			</td>
+		<td>Ryan Murphy</td>
+			<td class= "td3">Mar. 23, 2016</td>
+			<td class= "td3">University of California-Berkeley</td>
+			<td class= "td3">NCAA Division I Championships</td>
+
+			<tr><td>
+			<a href="https://www.swimcloud.com/results/236897/event/3/?id=97095352#time97095352" class="link">20.26</a>
+			</td>
+		<td>Adam Chaney</td>
+			<td class= "td3">Feb. 14, 2023</td>
+			<td class= "td3">University of Florida</td>
+			<td class= "td3">SEC Championships</td>
+
+			<tr>
+	<td class="gold">50 Breast</td>
+			<tr><td>
+			<a href="https://www.swimcloud.com/results/191941/event/1/0/?id=39933342&agegroup=UNOV#time39933342" class="link">22.40</a>
+			</td>
+		<td>Max McHugh</td>
+			<td class= "td3">Mar. 23, 2022</td>
+			<td class= "td3">University of Minnesota</td>
+			<td class= "td3">B1G Championships</td>
+	  
+			<tr><td>
+			<a href="https://www.swimcloud.com/results/236903/event/2/?id=97980390#time97980390" class="link">22.54</a>
+			</td>
+		<td>Brian Benzing</td>
+			<td class= "td3">Feb. 22, 2023</td>
+			<td class= "td3">Towson University</td>
+			<td class= "td3">CAA Championships</td>
+	  
+			<tr><td>
+			<a href="https://www.swimcloud.com/results/194776/event/1/?id=61391420#time61391420" class="link">22.55</a>
+			</td>
+		<td>Caspar Corbeau</td>
+			<td class= "td3">Mar. 23, 2022</td>
+			<td class= "td3">University of Texas</td>
+			<td class= "td3">NCAA Division I Championships</td>
+	  
+			<tr><td>
+			<a href="https://www.swimcloud.com/results/236878/event/1/?id=97776214#time97776214" class="link">22.57</a>
+			</td>
+		<td>Max McHugh</td>
+			<td class= "td3">Feb. 22, 2023</td>
+			<td class= "td3">University of Minnesota</td>
+			<td class= "td3">B1G Championships</td>
+	  
+			<tr><td>
+			<a href="https://www.swimcloud.com/results/104736/event/14/0/?id=14642150&agegroup=UNOV#time14642150" class="link">22.58</a>
+			</td>
+		<td>Carsten Vissering</td>
+			<td class= "td3">Mar. 21, 2018</td>
+			<td class= "td3">University of Southern California</td>
+			<td class= "td3">NCAA Division I Championships</td>
+
+			<tr>
+	<td class="gold">50 Fly</td>
+			<tr><td>
+			<a href="https://www.swimcloud.com/results/236897/event/3/?id=97095353#time97095353" class="link">18.90</a>
+			</td>
+		<td>Jordan Crooks</td>
+			<td class= "td3">Feb. 14, 2023</td>
+			<td class= "td3">University of Tennessee</td>
+			<td class= "td3">SEC Championships</td>
+				  
+			<tr><td>
+			<a href="https://www.swimcloud.com/results/194776/event/1/?id=61391402#time61391402" class="link">19.36</a>
+			</td>
+		<td>Eric Friese</td>
+			<td class= "td3">Mar. 23, 2022</td>
+			<td class= "td3">University of Florida</td>
+			<td class= "td3">NCAA Division I Championships</td>
+				  
+			<tr><td>
+			<a href="https://www.swimcloud.com/results/51000/event/14/0/?id=26010381&agegroup=UNOV#time26010381" class="link">19.36</a>
+			</td>
+		<td>Joseph Schooling</td>
+			<td class= "td3">Mar. 23, 2016</td>
+			<td class= "td3">University of Texas</td>
+			<td class= "td3">NCAA Division I Championships</td>
+				  
+			<tr><td>
+			<a href="https://www.swimcloud.com/results/194776/event/1/?id=61391418#time61391418" class="link">19.42</a>
+			</td>
+		<td>Andrei Minakov</td>
+			<td class= "td3">Mar. 23, 2022</td>
+			<td class= "td3">Stanford University</td>
+			<td class= "td3">NCAA Division I Championships</td>
+				  
+			<tr><td>
+			<a href="https://www.swimcloud.com/results/221814/event/15/?id=59346104#time59346104" class="link">19.50</a>
+			</td>
+		<td>Dalton Lowe</td>
+			<td class= "td3">Feb. 15, 2022</td>
+			<td class= "td3">University of Louisville</td>
+			<td class= "td3">ACC Championships</td>
+
+			<tr>
+	<td class="gold">50 Free</td>
+			<tr><td>
+			<a href="https://www.swimcloud.com/results/104736/event/14/0/?id=14642130&agegroup=UNOV#time14642130" class="link">17.30</a>
+			</td>
+		<td>Caeleb Dressel</td>
+			<td class= "td3">Mar. 21, 2018</td>
+			<td class= "td3">University of Florida</td>
+			<td class= "td3">NCAA Division I Championships</td>
+				  
+			<tr><td>
+			<a href="https://www.swimcloud.com/results/104736/event/14/0/?id=14642146&agegroup=UNOV#time14642146" class="link">17.37</a>
+			</td>
+		<td>Caeleb Dressel</td>
+			<td class= "td3">Mar. 21, 2018</td>
+			<td class= "td3">University of Florida</td>
+			<td class= "td3">NCAA Division I Championships</td>
+				  
+			<tr><td>
+			<a href="https://www.swimcloud.com/results/75356/event/14/0/?id=8621333&agegroup=UNOV#time8621333" class="link">17.71</a>
+			</td>
+		<td>Caeleb Dressel</td>
+			<td class= "td3">Mar. 22, 2017</td>
+			<td class= "td3">University of Florida</td>
+			<td class= "td3">NCAA Division I Championships</td>
+				  
+			<tr><td>
+			<a href="https://www.swimcloud.com/results/90476/event/15/?id=11226312#time11226312" class="link">17.86</a>
+			</td>
+		<td>Caeleb Dressel</td>
+			<td class= "td3">Feb. 15, 2017</td>
+			<td class= "td3">University of Florida</td>
+			<td class= "td3">SEC Championships</td>
+				  
+			<tr><td>
+			<a href="https://www.swimcloud.com/results/21477/event/1/?id=3472676#time3472676" class="link">17.86</a>
+			</td>
+		<td>Vlad Morozov</td>
+			<td class= "td3">Mar. 28, 2013</td>
+			<td class= "td3">University of Southern California</td>
+			<td class= "td3">NCAA Division I Championships</td>
+
+			<tr>
+	<td class="gold">100 Back</td>
+			<tr><td>
+			<a href="https://www.swimcloud.com/results/194776/event/14/?id=61391374#time61391374" class="link">43.35</a>
+			</td>
+		<td>Luca Urlando</td>
+			<td class= "td3">Mar. 25, 2022</td>
+			<td class= "td3">University of Georgia</td>
+			<td class= "td3">NCAA Division I Championships</td>
+					  
+			<tr><td>
+			<a href="https://www.swimcloud.com/results/51000/event/12/0/?id=26010094&agegroup=UNOV#time26010094" class="link">43.49</a>
+			</td>
+		<td>Ryan Murphy</td>
+			<td class= "td3">Mar. 25, 2016</td>
+			<td class= "td3">University of California-Berkeley</td>
+			<td class= "td3">NCAA Division I Championships</td>
+					  
+			<tr><td>
+			<a href="https://www.swimcloud.com/results/51000/event/7/0/?id=26010313&agegroup=UNOV#time26010313" class="link">43.51</a>
+			</td>
+		<td>Ryan Murphy</td>
+			<td class= "td3">Mar. 24, 2016</td>
+			<td class= "td3">University of California-Berkeley</td>
+			<td class= "td3">NCAA Division I Championships</td>
+					  
+			<tr><td>
+			<a href="https://www.swimcloud.com/results/187339/event/22/?id=37650051#time37650051" class="link">43.62</a>
+			</td>
+		<td>Coleman Stewart</td>
+			<td class= "td3">Dec. 4, 2020</td>
+			<td class= "td3">unattached</td>
+			<td class= "td3">Janice Hope Dowd Invitational</td>
+					  
+			<tr><td>
+			<a href="https://www.swimcloud.com/results/118612/event/12/0/?id=25666010&agegroup=UNOV#time25666010" class="link">43.66</a>
+			</td>
+		<td>Dean Farris</td>
+			<td class= "td3">Mar. 29, 2019</td>
+			<td class= "td3">Harvard University</td>
+			<td class= "td3">NCAA Division I Championships</td>
+
+			<tr>
+	<td class="gold">100 Breast</td>
+			<tr><td>
+			<a href="https://www.swimcloud.com/results/21477/event/6/?id=3472717#time3472717" class="link">49.56</a>
+			</td>
+		<td>Kevin Cordes</td>
+			<td class= "td3">Mar. 28, 2013</td>
+			<td class= "td3">University of Arizona</td>
+			<td class= "td3">NCAA Division I Championships</td>
+						  
+			<tr><td>
+				<a href="https://www.swimcloud.com/results/118612/event/7/0/?id=25666101&agegroup=UNOV#time25666101" class="link">49.60</a>
+			</td>
+		<td>Ian Finnerty</td>
+			<td class= "td3">Mar. 27, 2019</td>
+			<td class= "td3">University of Indiana-Bloomington</td>
+			<td class= "td3">NCAA Division I Championships</td>
+						  
+			<tr><td>
+			<a href="https://www.swimcloud.com/results/236873/event/15/?id=98492553#time98492553" class="link">49.73</a>
+			</td>
+		<td>Leon Marchand</td>
+			<td class= "td3">Mar. 3, 2023</td>
+			<td class= "td3">Arizona State University</td>
+			<td class= "td3">PAC-12 Championships</td>
+						  
+			<tr><td>
+			<a href="https://www.swimcloud.com/results/75356/event/7/0/?id=8621316&agegroup=UNOV#time8621316" class="link">49.75</a>
+			</td>
+		<td>Will Licon</td>
+			<td class= "td3">Mar. 23, 2017</td>
+			<td class= "td3">University of Texas</td>
+			<td class= "td3">NCAA Division I Championships</td>
+						  
+			<tr><td>
+			<a href="https://www.swimcloud.com/results/118612/event/7/0/?id=25666115&agegroup=UNOV#time25666115" class="link">49.91</a>
+			</td>
+		<td>Carsten Vissering</td>
+			<td class= "td3">Mar. 27, 2019</td>
+			<td class= "td3">University of Southern California</td>
+			<td class= "td3">NCAA Division I Championships</td>		
+
+			<tr></tr>
+	<td class="gold">100 Fly</td>
+			<tr><td>
+			<a href="https://www.swimcloud.com/results/51000/event/7/0/?id=26010340&agegroup=UNOV#time26010340" class="link">43.34</a>
+			</td>
+		<td>Joseph Schooling</td>
+			<td class= "td3">Mar. 24, 2016</td>
+			<td class= "td3">University of Texas</td>
+			<td class= "td3">NCAA Division I Championships</td>
+						  
+			<tr><td>
+				<a href="https://www.swimcloud.com/results/21477/event/6/?id=3472719#time3472719" class="link">43.48</a>
+            </td>
+        <td>Tom Shields</td>
+            <td class= "td3">Mar. 30, 2013</td>
+            <td class= "td3">University of California-Berkeley</td>
+            <td class= "td3">NCAA Division I Championships</td>	
+						  
+			<tr><td>
+			<a href="https://www.swimcloud.com/results/11008/event/6/" class="link">43.55</a>
+			</td>
+		<td>Austin Staab</td>
+			<td class= "td3">Mar. 26, 2009</td>
+			<td class= "td3">Stanford University</td>
+			<td class= "td3">NCAA Division I Championships</td>
+						  
+			<tr><td>
+				<a href="https://www.swimcloud.com/results/194776/event/14/?id=61391388#time61391388" class="link">43.58</a>
+			</td>
+		<td>Andrei Minakov</td>
+			<td class= "td3">Mar. 25, 2022</td>
+			<td class= "td3">Stanford University</td>
+			<td class= "td3">NCAA Division I Championships</td>
+						  
+			<tr><td>
+			<a href="https://www.swimcloud.com/results/75356/event/7/0/?id=8621316&agegroup=UNOV#time8621316" class="link">43.60</a>
+			</td>
+		<td>Joseph Schooling</td>
+			<td class= "td3">Mar. 23, 2017</td>
+			<td class= "td3">University of Texas</td>
+			<td class= "td3">NCAA Division I Championships</td>
+
+			<tr>
+	<td class="gold">100 Free</td>
+			<tr><td>
+			<a href="https://www.swimcloud.com/results/104736/event/21/0/?id=14642163&agegroup=UNOV#time14642163" class="link">40.15</a>
+			</td>
+		<td>Caeleb Dressel</td>
+			<td class= "td3">Mar. 23, 2018</td>
+			<td class= "td3">University of Florida</td>
+			<td class= "td3">NCAA Division I Championships</td>
+						  
+			<tr><td>
+				<a href="https://www.swimcloud.com/results/90476/event/42/?id=11226356#time11226356" class="link">40.20</a>
+            </td>
+		<td>Caeleb Dressel</td>
+			<td class= "td3">Feb. 18, 2017</td>
+			<td class= "td3">University of Florida</td>
+			<td class= "td3">SEC Championships</td>
+						  
+			<tr><td>
+			<a href="https://www.swimcloud.com/results/11008/event/6/" class="link">40.23</a>
+			</td>
+		<td>Nathan Adrian</td>
+			<td class= "td3">Mar. 26, 2009</td>
+			<td class= "td3">University of California-Berkeley</td>
+			<td class= "td3">NCAA Division I Championships</td>
+						  
+			<tr><td>
+				<a href="https://www.swimcloud.com/results/104736/event/21/0/?id=14642180&agegroup=UNOV#time14642180" class="link">40.25</a>
+			</td>
+		<td>Caeleb Dressel</td>
+			<td class= "td3">Mar. 23, 2018</td>
+			<td class= "td3">University of Florida</td>
+			<td class= "td3">NCAA Division I Championships</td>
+						  
+			<tr><td>
+			<a href="https://www.swimcloud.com/results/104736/event/7/0/?id=14642083&agegroup=UNOV#time14642083" class="link">40.27</a>
+			</td>
+		<td>Caeleb Dressel</td>
+			<td class= "td3">Mar. 28, 2019</td>
+			<td class= "td3">University of Texas</td>
+			<td class= "td3">NCAA Division I Championships</td>
+
+			<tr>
+	<td class="gold">200 Free</td>
+			<tr><td>
+			<a href="https://www.swimcloud.com/results/118612/event/1/?id=25666438#time25666438" class="link">1:29.66</a>
+			</td>
+		<td>Townley Haas</td>
+			<td class= "td3">Mar. 23, 2018</td>
+			<td class= "td3">University of Texas</td>
+			<td class= "td3">NCAA Division I Championships</td>
+						  
+			<tr><td>
+				<a href="https://www.swimcloud.com/results/194776/event/2/?id=61391434#time61391434" class="link">1:29.85</a>
+            </td>
+		<td>Dean Farris</td>
+			<td class= "td3">Mar. 23, 2022</td>
+			<td class= "td3">Harvard University</td>
+			<td class= "td3">SEC Championships</td>
+						  
+			<tr><td>
+				<a href="https://www.swimcloud.com/results/90476/event/42/?id=11226356#time11226356" class="link">1:29.96</a>
+            </td>
+		<td>Leon Marchand</td>
+			<td class= "td3">Feb. 18, 2017</td>
+			<td class= "td3">Arizona State University</td>
+			<td class= "td3">SEC Championships</td>
+						  
+			<tr><td>
+			<a href="https://www.swimcloud.com/results/75356/event/1/?id=8621371#time8621371" class="link">1:30.22</a>
+			</td>
+		<td>Dean Farris</td>
+			<td class= "td3">Feb. 27, 2019</td>
+			<td class= "td3">Harvard University</td>
+			<td class= "td3">Ivy League Championships</td>
+						  
+			<tr><td>
+			<a href="https://www.swimcloud.com/results/75356/event/1/?id=8621371#time8621371" class="link">1:30.42</a>
+			</td>
+		<td>Townley Haas</td>
+			<td class= "td3">Mar. 22, 2017</td>
+			<td class= "td3">University of Texas</td>
+			<td class= "td3">NCAA Division I Championships</td>
+      </table>
+      </div>
+      </div>
+      <td class= "td2">&nbsp;</td>
+
+    </body>
+  </html>
