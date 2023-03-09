@@ -146,6 +146,15 @@
     .link:hover {
       color: cyan;}
 
+.facts-container {
+	position: relative;
+        z-index: 1;
+        border-collapse: separate;
+	border-spacing: 8px;
+        background-color: rgba(2, 2, 2, 0.50);
+        border-radius: 10px;
+        width: 100%;}
+
 .top {
 	font-family: 'Roboto', sans-serif;
 	font-size: 24px;}
@@ -165,3 +174,6 @@
 	color: gold;
 	font-weight: 600;}
 
+.cyan {
+	color: cyan;
+	font-weight: 600;}
