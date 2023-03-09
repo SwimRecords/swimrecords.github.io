@@ -38,8 +38,10 @@ body {
 	<div>
 	<button class="button3" onclick="goToWebsite('/#extras')">Back <br>
 	</div>
-<table>
-             
+
+	<h2>SCY RECORD FACTS</h2>
+
+<table>     
 	<tr> <h class = "top"> <u> <b> Men's Facts </b> </u> </h> </tr>
         
 <tr> <p class="head"> <b> The oldest individual record has survived for <span class="gold" id="days-since-clark"> </span> days. </b> </p> </tr>
@@ -104,6 +106,10 @@ body {
   	<tr> <p class= "toes"> - Also mentioned earlier, Regan Smith's 200 Back time of 1:47.16 was swum outside of the NCAAs. </p> </tr>
    	<tr> <p class= "toes"> - Gretchen Walsh has the 100 IM record from a duel meet against Texas in November of 2022. This event, according to a video of the race, was swum unsuited, which is absolutely mindblowing. </p> </tr>
     <tr> <p class= "toes"> - Kate Douglass set the 200 Breast record at the Cavalier Invitational in early February of 2023, just two weeks before the ACC Championships. </p> </tr>
+	<br>
+<tr> <i> <p class= "head"> <b> <span class="cyan" id="days-until-2024"></span> days until the first swim of the 2024 US Olympic Team Trials. </i> </b> </p> 
+<td> <i> <p class= "head"> <b> <span class="cyan" id="days-until-Paris"></span> days until the first swim of the Paris 2024 Olympics.  </td></tr>
+
            
       <script>
         var eventDate2F = new Date("March 26, 2009"); //Auburn's 200 Free Relay (M)
@@ -111,17 +117,23 @@ body {
         var eventDateMurph = new Date ("March 26, 2016"); //Ryan Murphy's 200 Back
         var eventDateMissy = new Date ("March 21, 2015"); //Missy Franklin's 200 Free
         var eventDate8F = new Date ("March 15, 2017"); //Stanford's 800 Free Relay (W)
+	var eventDate2024 = new Date ("June 15, 2024"); //Start date of Olympic Team Trials
+	var eventDateParis = new Date ("July 27, 2024"); //Start date of Paris 2024 Swimming
         var today = new Date(); //Current date
         var diffDays2F = Math.floor((today-eventDate2F) / (1000*60*60*24)); //Calculate days since Auburn's 200 Free Relay (M)
         var diffDaysClark = Math.floor((today-eventDateClark) / (1000*60*60*24)); //Calculate days since Clark Smith's 1000 Free
         var diffDaysMurph= Math.floor((today-eventDateMurph) / (1000*60*60*24)); //Calculate days since Ryan Murphy's 200 Back
         var diffDaysMissy= Math.floor((today-eventDateMissy) / (1000*60*60*24)); //Calculate days since Missy Franklin's 200 Free
         var diffDays8F= Math.floor((today-eventDate8F) / (1000*60*60*24)); //Calculate days since Stanford's 800 Free Relay (W)
+	var diffDays2024 = Math.floor((eventDate2024-today) / (1000*60*60*24)); //Calculate days UNTIL Olympic Team Trials
+	var diffDaysParis = Math.floor((eventDateParis-today) / (1000*60*60*24)); //Calculate days UNTIL Paris 2024 Swimming
         document.getElementById("days-since-2f").innerHTML = diffDays2F;
         document.getElementById("days-since-clark").innerHTML = diffDaysClark;
         document.getElementById("days-since-murph").innerHTML = diffDaysMurph;
         document.getElementById("days-since-missy").innerHTML = diffDaysMissy;
         document.getElementById("days-since-8f").innerHTML = diffDays8F;
+	document.getElementById("days-until-2024").innerHTML = diffDays2024;
+	document.getElementById("days-until-Paris").innerHTML = diffDaysParis;
       </script>
 
 </table>
