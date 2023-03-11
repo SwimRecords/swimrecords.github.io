@@ -232,7 +232,7 @@ header .logo {
   width: 100%;
   text-align: center;
   padding: 20px;
-  background-color: black;}
+  background-color: #021024;}
 
 .footer h1 {
   color: white;
@@ -245,22 +245,62 @@ header .logo {
 .highlight {
   color:aqua;}
 
-.extras, .extras h2{
-  width: 100%;
+.extras{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background-color: var(--blue-1)}
+
+.extras a {
+  display: block;
+  font-weight: bold;
+  font-size: 20px;
+  text-decoration: none;
+  color: aqua;}
+
+.extras h2 {
+  font-size: 20px;
+  margin: 0;
+  color: aqua;}
+
+.extras a:hover, .extras h2:hover {
+  text-shadow: 2px 2px rgb(2, 8, 31);
+  color: white;}
+
+
+.column {
+  flex-basis: calc(25% - 10px);
+  margin-bottom: 10px;
   text-align: center;
   padding: 20px;
-  background-color: var(--blue-1);
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  font-size: 21px;
-  padding-left: 58px;}
+  box-sizing: border-box;}
 
-  .extras a:hover {
-    font-weight: 800;
-    text-shadow: 2px 2px rgb(2, 8, 31);}
-  </style>
+.column:hover a, .column:hover h2{
+  text-shadow: 2px 2px rgb(2, 8, 31);
+  color: white;}
+
+@media (max-width: 767px) {
+  .extras {
+    justify-content: center;}
   
+  .column {
+    flex-basis: 100%;}
+  
+  .extras h2{
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 22px;}
+  
+  .extras a {
+    display: block;
+    padding: 10px;
+    font-size: 22px;}
+  
+  .extras a:hover {
+    text-shadow: 2px 2px rgb(2, 8, 31);
+    color: white;}}
+
+</style>
 </head>
 
 <body>
@@ -274,9 +314,6 @@ header .logo {
       <h3>Short Course Yards Swim Records</h3>
       <h4>The complete database of the fastest times in history.</h4>
     </div>
-  </section>
-
-
   </section>
 
   <section id="men">
@@ -348,17 +385,23 @@ header .logo {
         </div></div></a>
 </section>
 
-
-
   <section class="extras" id="extras">
-  <h2><a href="/men_top5" style="text-decoration: none; color: rgba(7, 238, 255, 0.8);">
-      [Men Individual Top 5]</a></h2>
-  <h2><a href="/women_top5" style="text-decoration: none; color: rgba(0, 255, 234, 0.8);">
-      [Women Individual Top 5]</a></h2>
-	<h2><a href="/split_log" style="text-decoration: none; color: rgb(4, 255, 171, 0.8);">
-		  [Relay Split Top 5]</a></h2>
-    <h2><a href="/facts" style="text-decoration: none; color:rgb(0, 255, 106, 0.8);">
-      [Interesting Record Facts]</a></h2><br>
+  <div class="column">
+    <a href="/men_top5" style="text-decoration: none;">Top 5
+      <h2>Men's Individuals</h2></a>
+    </div>
+  <div class="column">
+    <a href="/women_top5" style="text-decoration: none;">Top 5
+      <h2>Women's Individuals</h2></a>
+    </div>
+  <div class="column">
+    <a href="/split_log" style="text-decoration: none;">Top 5
+      <h2>Relay Splits</h2></a>
+    </div>
+  <div class="column">
+    <a href="/facts" style="text-decoration: none;">Record 
+      <h2>Facts</h2></a>
+    </div>
 </section>
 
       <section class="footer">
