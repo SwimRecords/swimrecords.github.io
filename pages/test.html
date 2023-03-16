@@ -285,132 +285,113 @@ header .logo {
   color: white;}
 
 @media (max-width: 767px) {
-  .extras {
+.extras {
     justify-content: center;}
   
-  .column {
+.column {
     flex-basis: 100%;}
   
-  .extras h2{
+.extras h2{
     margin-top: 0;
     margin-bottom: 10px;
     font-size: 22px;}
   
-  .extras a {
+.extras a {
     display: block;
     padding: 10px;
     font-size: 22px;}
   
-  .extras a:hover {
+.extras a:hover {
     text-shadow: 2px 2px rgb(2, 8, 31);
-    color: white;}}
-
-
-.nav {
-	margin: 0;
-	padding: 0;
-	list-style: none;}
+    color: white;}
+  
+nav ul li {
+  font-size: 14px;
+  max-height: 25%;
+  max-width: 25%;}}
 
 nav ul {
-	background-color: var(--blue-1);
-	text-align: center;
-	padding-right: 40px;
-	list-style: none;
-  	margin: 0;
-  	padding: 0;}
+  justify-content: center;
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 20px;
+  background-color: var(--blue-1);
+  font-size: 22px;
+  font-weight: bold;}
 
 nav li {
-	display: inline-block;
-	position: relative;
-	padding: 20px;
-	color: white;
-	font-size: 24px;
-	font-weight: bold;}
-
-nav li:hover {
-	color: aqua;
-	text-shadow: 2px 2px 2px black;}
+  display: inline-block;
+  position: relative;}
 
 nav a {
-	display: block;
-	color: white;
-	font-size: 18px;
-	text-decoration: none;}
-
-
-nav label {
-  	display: inline-block;
-  	padding: 10px 15px;
-  	cursor: pointer;}
-
-nav .dropdown-content {
-  	display: none;
-  	position: absolute;
-  	top: 100%;
-  	left: 0;
-  	z-index: 1;
-  	padding: 0;
-  	margin: 0;}
-
-nav .dropdown-content li {
-  	background-color: #fff;
-  	border-bottom: 1px solid #ccc;}
-
-nav .dropdown-content li:last-child {
-  border-bottom: none;}
-
-  nav .dropdown-content a {
   display: block;
-  padding: 10px 15px;
-  color: #333;
+  padding: 10px;
+  color: white;
   text-decoration: none;}
 
-nav input[type="checkbox"] {
-  display: none;}
+nav ul li a {
+  padding-right: 50px;
+  padding-left: 50px;}
 
-nav input[type="checkbox"]:checked + .dropdown-content {
+nav ul ul {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  width: 180px;
+  background-color: var(--blue-1);
+  border: 1px solid black;
+  padding: 0;
+  transform: translateX(-50%);
+  z-index: 3;}
+
+nav ul li ul a {
+  color: white;
+  font-size: 18px;
+  text-align: left;
+  padding-left: 20px;}
+
+nav a:hover{
+  color: aqua;}
+
+nav ul li ul a:hover {
+  color: aqua;}
+
+nav ul li:hover > ul {
   display: block;}
-
-
 </style>
 </head>
 
 <body>
-	<section class="nav" id="nav">
-		<nav>
-			<ul>
-				<li>
-					<label for="dropdown-toggle">Short Course Yards</label>
-					<input type="checkbox" id="dropdown-toggle">
-						<ul class="dropdown-content">
-							<li><a href="#">Men</a></li>
-							<li><a href="#">Women</a></li>
-							<li><a href="#">Age Group</a></li>
-						</ul>
-				</li>
-				<li>
-					<label for="dropdown-toggle">Long Course Meters</label>
-					<input type="checkbox" id="dropdown-toggle">
-						<ul class="dropdown-content">
-							<li><a href="#">Men</a></li>
-							<li><a href="#">Women</a></li>
-							<li><a href="#">Age Group</a></li>
-						</ul>
-				</li>
-				<li>
-					<label for="dropdown-toggle">Short Course Meters</label>
-					<input type="checkbox" id="dropdown-toggle">
-						<ul class="dropdown-content">
-							<li><a href="#">Men</a></li>
-							<li><a href="#">Women</a></li>
-						</ul>
-				</li>
-			</ul>
-		</nav>
-	</section>
+<nav>
+  <ul>
+    <li><a href="#">Help</a></li>
 
+    <li><a href="#">Short Course Yards</a>
+      <ul>
+        <li><a href="#">Men</a></li>
+        <li><a href="#">Women</a></li>
+        <li><a href="#">Age Group</a></li>
+      </ul>
+    </li>
 
+    <li><a href="#">Long Course Meters</a>
+      <ul>
+        <li><a href="#">Men</a></li>
+        <li><a href="#">Women</a></li>
+        <li><a href="#">Age Group</a></li>
+      </ul>
+    </li>
 
+    <li><a href="#">Short Course Meters</a>
+      <ul>
+        <li><a href="#">Men</a></li>
+        <li><a href="#">Women</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
 
 
   <section class="home" id="home">
@@ -518,7 +499,7 @@ nav input[type="checkbox"]:checked + .dropdown-content {
       I hope this website made record-checking as easy as possible for you.
       <br>
       If anything happens to be out-of-date or incorrect, please email: <span class="highlight">SwimRecordsAlex@gmail.com</span>
-      <p> Last updated: March 13th, 2023
+      <p> Last updated: March 15th, 2023
       <a href="/log" style="text-decoration: none; color: lightgray; font-size: 12px; font-weight: 0;">[Log]</a></p>
     </h1>
 
