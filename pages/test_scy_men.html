@@ -1,0 +1,420 @@
+---
+title: Test - SCY Men
+permalink: /test_scy_men/
+---
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-GC80TR99XW"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-GC80TR99XW');
+</script>
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@kylesockwell">
+  <meta name="twitter:title" content="SCY Record Database">
+  <meta name="twitter:description" content="Who's the fastest in history?">
+  <meta name="twitter:image" content="https://swimrecords.github.io/images/background.png">
+
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" user-scalable=yes>
+  <meta name="description" content="Short Course Yards (SCY) Record Database">
+  <meta name="keywords"
+    content="swim, records, swimming, swim records, SCY records, ncaa records swim, swim college records, swim american records, swim national records">
+  <meta name="author" content="Alex Bartik">
+  <meta name="title" content="SCY Record Database">
+
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="SCY Record Database" />
+  <meta property="og:description" content="Short Course Yards (SCY) Record Database">
+  <meta property="og:image" content="https://i.imgur.com/jOWKwjJ.png">
+  
+  <link rel="icon" type="image/x-icon" href="images/logoo.jpg">
+  
+  <title>SCY Swim Records</title>
+  <script src="https://app.formester.com/widget/popup.js" type="module" ></script>
+<style>
+          @import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;}
+
+:root{
+    --blue-1:#041e42;
+    --blue-2:#00fff2;
+    --blue-3:#54a9e2;
+    --light:#fff;
+    --dark:#111;
+    --most-used-em: 1em;
+    --frequent-font-size: 1.5em;}
+
+.logo-icon {
+  width: 30px;}
+  
+.home {
+  position: relative;
+  right: 0;
+  width: 100%;
+  min-height: 100vh;
+  padding: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: var(--dark);
+  transition: 0.5s;
+  z-index: 2;}
+
+.home.active {
+  right: 300px;}
+
+.home img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.3;}
+
+.home p {
+	font-size: 20px;
+  font-weight: 700;
+  color: var(--light);
+  line-height: var(--most-used-em);
+  margin-bottom:20px;}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  mix-blend-mode: overlay;}
+
+.hero-text {
+  position: relative;
+  z-index: 10;}
+
+.hero-text h3 {
+  font-size: 64px;
+  font-weight: 800;
+  color: var(--light);
+  line-height: var(--most-used-em);
+  text-transform: uppercase;
+  margin-bottom:10px;}
+
+.hero-text h4 {
+  font-size: 26px;
+  font-weight: 700;
+  color: var(--light);
+  line-height: var(--most-used-em);
+  margin-bottom:60px;}
+
+@media (max-width: 991px){
+  .home,
+  .text h2{
+    font-size: 3em;}
+  .text h3{
+    font-size: 2em;}}
+
+.footer{
+  width: 100%;
+  text-align: center;
+  padding: 20px;
+  background-color: #021024;}
+
+.footer h1 {
+  color: white;
+  font-size: 17px;}
+
+.footer p {
+  color: rgb(189, 188, 188);
+  font-size:13px;}
+
+.highlight {
+  color:aqua;}
+
+.extras{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background-color: var(--blue-1)}
+
+.extras a {
+  display: block;
+  font-weight: bold;
+  font-size: 20px;
+  text-decoration: none;
+  color: aqua;}
+
+.extras h2 {
+  font-size: 20px;
+  margin: 0;
+  color: aqua;}
+
+.extras a:hover, .extras h2:hover {
+  text-shadow: 2px 2px rgb(2, 8, 31);
+  color: white;}
+
+@media (max-width: 767px) {
+.extras {
+  justify-content: center;}
+  
+.extras h2{
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 22px;}
+  
+.extras a {
+  display: block;
+  padding: 10px;
+  font-size: 22px;}
+  
+.extras a:hover {
+  text-shadow: 2px 2px rgb(2, 8, 31);
+  color: white;}
+  
+nav ul li {
+  font-size: 14px;
+  max-height: 25%;
+  max-width: 25%;}}
+
+nav ul {
+  justify-content: center;
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 10px;
+  background-color: var(--blue-1);
+  font-size: 22px;
+  font-weight: bold;}
+
+nav li {
+  display: inline-block;
+  position: relative;}
+
+nav a {
+  display: block;
+  padding: 10px;
+  color: white;
+  text-decoration: none;}
+
+nav ul li a {
+  padding-right: 50px;
+  padding-left: 50px;
+  font-size: 18px;}
+
+nav ul ul {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  width: 180px;
+  background-color: var(--blue-1);
+  border: 1px solid black;
+  padding: 0;
+  transform: translateX(-50%);
+  z-index: 3;}
+
+nav ul li ul a {
+  color: white;
+  font-size: 18px;
+  text-align: left;
+  padding-left: 20px;}
+
+nav a:hover{
+  color: aqua;}
+
+nav ul li ul a:hover {
+  color: aqua;}
+
+nav ul li:hover > ul {
+  display: block;}
+
+.logo-icon{
+  width: 10em;}
+
+  #subjects-section{
+    background-color: var(--blue-1);
+    margin-top: 20px}
+
+@media (min-width:50%) {
+  #subjects-section{
+    max-height: 25%;
+    max-width: 25%;
+    margin-top: 20px;}}
+
+.subjects h2{
+        color: white;
+        text-align: center;
+        font-weight: 500;
+        text-shadow: 2px 2px black;}
+
+.subjects h2:hover, .subjects p2:hover{
+        color: cyan;
+        text-align: center;
+        font-weight: 800;
+        text-shadow: 2px 2px black;}     
+
+.subjects p {
+        text-align: center;
+        font-size:24px;
+        color:white;
+        padding: 25px;
+        font-weight: 500;
+        text-shadow: 2px 2px black;}
+
+.section-title{
+        color: var(--light);
+        text-align: center;
+        font-size: 3em;
+        padding: 25px;
+        background-color: var(--blue-3);}
+
+
+.subjects {  
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background: var(--dark);
+        background-image: url('/images/lezak.png');
+        background-size: cover;
+        background-position: center;}
+
+.subject {
+        flex: 1 1 0;
+        height: auto;
+        box-sizing: border-box;
+        padding: 10px;
+        margin-top: 140px;
+        margin-bottom: 100px;}
+  
+.subject-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100%;}
+
+.subject img {
+        max-width: 20%;
+        height: auto;}
+
+.subject a {
+      text-decoration:none;}
+
+.subject-1 {
+    order: 1;}
+  
+.subject-2 {
+    order: 2;;}
+  
+.subject-3 {
+    order: 3;}
+
+
+
+@media (max-width: 768px){
+    .subjects{
+        display: flex;
+        flex-direction: column;
+        max-width: 100vw;}}
+</style>
+</head>
+
+<body>
+<nav>
+  <ul>
+	<img class="logo-icon" src="/images/logoo.jpg" style="height:2em; width:2em">
+    <li><a href="#">Short Course Yards</a>
+      <ul>
+        <li><a href="/test_scy_men">Men</a></li>
+        <li><a href="#">Women</a></li>
+        <li><a href="#">Age Group</a></li>
+      </ul>
+    </li>
+
+    <li><a href="#">Long Course Meters</a>
+      <ul>
+        <li><a href="#">Men</a></li>
+        <li><a href="#">Women</a></li>
+        <li><a href="#">Age Group</a></li>
+      </ul>
+    </li>
+
+    <li><a href="#">Short Course Meters</a>
+      <ul>
+        <li><a href="#">Men</a></li>
+        <li><a href="#">Women</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+  <section class="home" id="home">
+    <img src="/images/phelps.png"> </img>
+    <div class="overlay"></div>
+    <div class="hero-text">
+      <h3>Men's SCY Records</h3>
+
+    </div>
+  </section>
+
+  <section id="men">
+
+        <div class="subjects">
+        <div class="subject subject-1">
+        <div class="subject-content">
+        <img class="img-fluid" alt="USA" src="/images/us_open.png">
+        <a href="/men_us_open">
+<h2>US&nbsp;Open</h2>
+        </div>
+<p>Fastest swims in American water</p>
+        </div></a>
+
+        <div class="subject subject-2">
+        <div class="subject-content">
+        <img class="img-fluid" alt="American" src="/images/american.png">
+        <a href="/men_american">
+<h2>American</h2>
+        </div>
+<p>Fastest swims by American citizens</p>
+        </div></a>
+
+        <div class="subject subject-3">
+        <div class="subject-content">
+        <img class="img-fluid" alt="NCAA" src="/images/ncaa.png">
+        <a href="/men_ncaa">
+<h2>NCAA</h2>
+        </div>
+<p>Fastest swims at NCAA meets</p>
+        </div></div></a>
+        </section>
+
+      <section class="footer">
+    <h1>To The Swimming Community:<br>
+      I hope this website made record-checking as easy as possible for you.
+      <br>
+      If anything happens to be out-of-date or incorrect, please email: <span class="highlight">SwimRecordsAlex@gmail.com</span>
+      <p> Last updated: March 15th, 2023
+      <a href="/log" style="text-decoration: none; color: lightgray; font-size: 12px; font-weight: 0;">[Log]</a></p>
+    </h1>
+
+  </section>
+
+</body>
+
+</html>
+
