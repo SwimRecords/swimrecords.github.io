@@ -73,12 +73,13 @@ permalink: /test_scy_men/
   align-items: center;
   background: var(--dark);
   transition: 0.5s;
-  z-index: 2;}
+  z-index: 2;
+  text-decoration: none;}
 
 .home.active {
   right: 300px;}
 
-.bg-img  {
+.bg-img {
   position: absolute;
   top: 0;
   left: 0;
@@ -88,11 +89,10 @@ permalink: /test_scy_men/
   opacity: 0.3;}
 
 .home p {
-	font-size: 20px;
-  font-weight: 700;
-  color: var(--light);
-  line-height: var(--most-used-em);
-  margin-bottom:20px;}
+  font-size: 20px;
+  margin-right: 20;
+  text-decoration: none;
+  color: white;}
 
 .overlay {
   position: absolute;
@@ -108,18 +108,22 @@ permalink: /test_scy_men/
 .hero-text h3 {
   font-size: 64px;
   font-weight: 800;
-  color: var(--light);
   line-height: var(--most-used-em);
   text-transform: uppercase;
   margin-bottom:300px;
+  color: white;
   text-align: center;}
 
 .hero-text h4 {
-  font-size: 26px;
-  font-weight: 700;
-  color: var(--light);
-  line-height: var(--most-used-em);
-  margin-bottom:60px;}
+  font-size: 28px;
+  font-weight: bold;
+  margin: 10;
+  padding: 10px;
+  text-decoration: none;
+  color: white;}
+
+.hero-text h4:hover {
+  color: cyan;}
 
 @media (max-width: 991px){
   .home,
@@ -173,7 +177,8 @@ nav a {
 nav ul li a {
   padding-right: 50px;
   padding-left: 50px;
-  font-size: 18px;}
+  font-size: 18px;
+  align-items:center;}
 
 nav ul ul {
   display: none;
@@ -211,29 +216,24 @@ nav ul li:hover > ul {
   align-items: center;
   flex-wrap: wrap;
   margin: 0 auto;
-  max-width: 2000px;}
+  width: 100vw;}
 
 .phrase {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin: 0 20px;
-  text-align: center;}
+  text-align: center;
+  text-decoration: none;
+  margin-right: px;}
 
 .phrase img {
   width: 150px;
   height: 150px;
   margin-bottom: 20px;}
 
-.phrase h4 {
-  font-size: 28px;
-  font-weight: bold;
-  margin: 10;
-  padding: 10px;}
-
-.phrase p {
-  font-size: 20px;
-  margin-right: 20;}
+.phrase a {
+  text-decoration: none;}
 </style>
 </head>
 
@@ -276,21 +276,26 @@ nav ul li:hover > ul {
       <div class="container">
         <div class="phrase">
           <img src="/images/us_open.png" alt="US Open">
+            <a href="/men_us_open">
           <h4>US Open</h4>
-          <p>Fastest swims in American water</p>
+          <p>Fastest swims in American water</p></a>
         </div>
+
         <div class="phrase">
           <img src="/images/american.png" alt="American Records">
+            <a href="/men_american">
           <h4>American</h4>
-          <p>Fastest swims by American citizens</p>
+          <p>Fastest swims by American citizens</p></a>
         </div>
+
         <div class="phrase">
           <img src="/images/ncaa.png" alt="NCAA Records">
+            <a href="/men_ncaa">
           <h4>NCAA</h4>
-          <p>Fastest swims at NCAA meets</p>
+          <p>Fastest swims at NCAA meets</p></a>
         </div>
-      </div>
-      </section>
+    </div>
+  </section>
       
 
       <section class="footer">
