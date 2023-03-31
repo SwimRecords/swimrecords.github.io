@@ -60,9 +60,14 @@ permalink: /test/
     --most-used-em: 1em;
     --frequent-font-size: 1.5em;}
 
-.logo-icon {
-  width: 30px;}
-
+.logo-icon{
+  width: 2em;
+  height: 2em;
+  background-image: url(/images/logoo.jpg);
+  background-position: center;
+  background-size: cover;
+  padding: 0;
+  margin-top: 8px;}
 
 header {
   position: absolute;
@@ -227,10 +232,10 @@ nav ul li {
 
 nav ul {
   justify-content: center;
+  align-items: center;
   display: flex;
   list-style: none;
   margin: 0;
-  padding: 10px;
   background-color: var(--blue-1);
   font-size: 22px;
   font-weight: bold;}
@@ -240,14 +245,14 @@ nav li {
   position: relative;}
 
 nav a {
-  display: block;
-  padding: 10px;
   color: white;
-  text-decoration: none;}
+  text-decoration: none;
+  display: block;
+  padding: 10px;}
 
 nav ul li a {
-  padding-right: 50px;
-  padding-left: 50px;
+  padding-right: 75px;
+  padding-left: 75px;
   font-size: 18px;}
 
 nav ul ul {
@@ -266,7 +271,8 @@ nav ul li ul a {
   color: white;
   font-size: 18px;
   text-align: left;
-  padding-left: 20px;}
+  padding-left: 20px;
+  white-space:nowrap;}
 
 nav a:hover{
   color: aqua;}
@@ -276,9 +282,6 @@ nav ul li ul a:hover {
 
 nav ul li:hover > ul {
   display: block;}
-
-.logo-icon{
-  width: 10em;}
 </style>
 </head>
 
@@ -286,7 +289,7 @@ nav ul li:hover > ul {
 <nav>
   <ul>
     <a href="/test">
-	<img class="logo-icon" src="/images/logoo.jpg" style="height:2em; width:2em"></a>
+	<img class="logo-icon"></a>
     <li><a href="#">Short Course Yards</a>
       <ul>
         <li><a href="/test_scy_men">Men</a></li>
