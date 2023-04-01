@@ -144,15 +144,6 @@ header .logo {
   line-height: var(--most-used-em);
   margin-bottom:60px;}
 
-@media (max-width: 991px){
-  .home,
-  .home header{
-    padding: 40px;}
-  .text h2{
-    font-size: 3em;}
-  .text h3{
-    font-size: 2em;}}
-
 .footer{
   width: 100%;
   text-align: center;
@@ -169,66 +160,6 @@ header .logo {
 
 .highlight {
   color:aqua;}
-
-.extras{
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  background-color: var(--blue-1)}
-
-.extras a {
-  display: block;
-  font-weight: bold;
-  font-size: 20px;
-  text-decoration: none;
-  color: aqua;}
-
-.extras h2 {
-  font-size: 20px;
-  margin: 0;
-  color: aqua;}
-
-.extras a:hover, .extras h2:hover {
-  text-shadow: 2px 2px rgb(2, 8, 31);
-  color: white;}
-
-
-.column {
-  flex-basis: calc(25% - 10px);
-  margin-bottom: 10px;
-  text-align: center;
-  padding: 20px;
-  box-sizing: border-box;}
-
-.column:hover a, .column:hover h2{
-  text-shadow: 2px 2px rgb(2, 8, 31);
-  color: white;}
-
-@media (max-width: 767px) {
-.extras {
-    justify-content: center;}
-  
-.column {
-    flex-basis: 100%;}
-  
-.extras h2{
-    margin-top: 0;
-    margin-bottom: 10px;
-    font-size: 22px;}
-  
-.extras a {
-    display: block;
-    padding: 10px;
-    font-size: 22px;}
-  
-.extras a:hover {
-    text-shadow: 2px 2px rgb(2, 8, 31);
-    color: white;}
-  
-nav ul li {
-  font-size: 14px;
-  max-height: 25%;
-  max-width: 25%;}}
 
 nav ul {
   justify-content: center;
@@ -282,6 +213,22 @@ nav ul li ul a:hover {
 
 nav ul li:hover > ul {
   display: block;}
+
+  @media (max-width: 768px){
+.home,
+.home header{
+  padding: 40px;}
+
+.text h2{
+  font-size: 3em;}
+
+.text h3{
+  font-size: 2em;}
+
+nav ul li a {
+  padding-right: 30px;
+  padding-left: 30px;
+  font-size:14px;}}
 </style>
 </head>
 
