@@ -223,22 +223,21 @@ nav ul li:hover > ul {
 .phrase a {
   text-decoration: none;}
 
-@media (max-width:1400px){
+  @media (max-width:1400px){
 nav ul li a{
 	font-size: 14px;}
 
 .home p {
-	font-size: 20px;
-  margin-bottom: 40px;}
+  margin-bottom: 40px;
+  font-size: 15px;}
+
+.hero-text h3 {
+	font-size: 36px;}
 
 .hero-text h4 {
-	font-size: 28px;
-	margin: 0;
+	font-size: 22px;
+	margin: 0 0 20;
 	padding: 0px;}
-
-.hero-text h3{
-	margin-bottom:120px;
-  margin-top:140px;}
 
 .home,
 .home header{
@@ -247,12 +246,41 @@ nav ul li a{
 nav ul li a {
   padding-right: 25px;
   padding-left: 25px;
-  font-size:16px;}}
+  font-size:13px;}
+  
+.container {
+  margin-bottom: 60px;}
+  
+.phrase img {
+  width: 80px;
+  height: 80px;
+  margin-left: 0px;
+  margin-right: 0px;}}
 
 @media (max-width:800px){
 .hero-text h3{
-	margin-bottom:120px;
-  margin-top:0px}}
+	margin-bottom:40px;
+  	margin-top:0px;
+	font-size:40px;}
+	
+.hero-text h4 {
+	font-size: 20px;}
+
+nav ul li a {
+	font-size: 10px;
+	padding-right: 20px;
+  	padding-left: 20px;}
+	
+.logo-icon{
+  	width: 1em;
+  	height: 1em;}
+
+.phrase img {
+  	width: 75px;
+  	height: 75px;}
+
+.home p {
+	font-size: 16px;}}
 </style>
 </head>
 
@@ -301,33 +329,35 @@ nav ul li a {
     <div class="hero-text">
       <h3>Top 5 Individual Performances</h3>
 	  <p style="text-transform: none; margin-top: none; padding-left:20px; padding-right:20px; text-align:center;">These are lists of the fastest 5 relay splits. Note: Only the backstroke events include flat starts. Some flat start times are faster than flying starts, but they are not included here.</span></p>
+	  <p style="font-size:32px; text-align:center; font-weight:bold; padding: 0 0 40; margin:0; color:gray">Short Course Yards</p>
 
-      <div class="container">
+     	<div class="container">
         <div class="phrase">
-          <img src="/images/top5.png" alt="SCY Top 5 Splits - Men">
+          <img src="/images/top5.png" alt="SCY Top 5 Swims - Men">
             <a href="/men_splits">
-          <h4>Short Course Yards</h4>
 		  <p style="padding-left:20px">Men</p></a>
         </div>
 
         <div class="phrase">
-          <img src="/images/top5.png" alt="LCM Top 5 Splits - Men">
-            <a href="/lcm_men_splits">
-          <h4>Long Course Meters</h4>
-		  <p style="padding-left:20px">Men</p></a>
+          <img src="/images/top5.png" alt="SCY Top 5 Swims - Women">
+            <a href="/women_splits">
+		  <p style="padding-left:20px">Women</p></a>
         </div>
+		</div>
 
+
+  <p style="font-size:32px; text-align:center; font-weight:bold; padding: 0 0 40; margin:0; color:gray">Long Course Meters</p>
+
+	<div class= "container">
 		<div class="phrase">
-			<img src="/images/top5.png" alt="SCY Top 5 Splits - Women">
-			  <a href="/women_splits">
-			<h4>Short Course Yards</h4>
-			<p style="padding-left:20px">Women</p></a>
+			<img src="/images/top5.png" alt="LCM Top 5 Splits - Men">
+			  <a href="/lcm_men_splits">
+			<p style="padding-left:20px">Men</p></a>
 		  </div>
 
 		  <div class="phrase">
 			<img src="/images/top5.png" alt="LCM Top 5 Splits - Women">
 			  <a href="/lcm_women_splits">
-			<h4>Long Course Meters</h4>
 			<p style="padding-left:20px">Women</p></a>
 		  </div>
     </div>
