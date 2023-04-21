@@ -164,13 +164,15 @@
 .head {
 	font-size: 22px;
 	text-align: left;
-	border-bottom: none;}
+	border-bottom: none;
+    	margin-bottom: 20px;}
 
 .toes {
 	font-size: 20px;
 	margin-left: 20px;
 	text-align: left;
-	border-bottom: none;}
+	border-bottom: none;
+    margin-bottom: 0px;}
 
 .gold {
 	color: gold;
