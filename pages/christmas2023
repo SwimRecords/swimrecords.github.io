@@ -1,1 +1,50 @@
+---
+title: Merry Christmas!
+permalink: /christmas2023/
+---
 
+<!DOCTYPE html>
+<html>
+<head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-GC80TR99XW"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-GC80TR99XW');
+</script>
+<title>Interesting Facts</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" type="image/x-icon" href="/images/logoo.jpg">
+<link rel="stylesheet" type="text/css" href="/style.css">
+	<style>
+body {
+	background-image: url(/images/nathan.png);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+	background-color:black;}
+</style>
+</head>
+<script>
+	function goToWebsite(url) {
+	  window.location.href = url;}
+	</script>
+
+<body>
+<!-- BACK BUTTON -->
+	<div>
+	<button class="button3" onclick="goToWebsite('https://www.swimrecords.net/#extras')">Back <br>
+	</div>
+
+	<h2 style=color:"red">Merry Christmas!!</h2>
+	<p></p>
+    
+<div class="facts-container">
+
+  <tr> <p class="head"> I'm very very thankful for all of you. While it's been nice being done with school, it's also been really stressful because I'm still not entirely sure what to do with myself but it all feels like it's gonna be okay because you always have my back and you're always supportive no matter what. I seriously can't thank you enough for making me feel safe and cared for.</p> </tr>
+</div>
+</body>
+</html> 
