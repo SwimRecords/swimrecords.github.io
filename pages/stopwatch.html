@@ -1,0 +1,145 @@
+---
+title: Stopwatch
+permalink: /stopwatch/
+---
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<!-- Google tag (gtag.js) -->
+
+  <meta charset="UTF-8">
+  <title>6-Lane Stopwatch</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      background-color: #121212;
+      color: #ffffff;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 30px;
+    }
+
+    #mainStopwatch {
+      font-size: 3rem;
+      margin-bottom: 20px;
+    }
+
+    .lane-times {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+
+    .lane-time {
+      font-size: 1.5rem;
+      margin: 5px 0;
+    }
+
+    .button-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 15px;
+    }
+
+    button {
+      padding: 15px 25px;
+      font-size: 1.2rem;
+      background-color: #007bff;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    button:disabled {
+      background-color: #555;
+      cursor: not-allowed;
+    }
+
+    button:hover:not(:disabled) {
+      background-color: #0056b3;
+    }
+
+    #startButton {
+      margin-top: 20px;
+      padding: 10px 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <div id="mainStopwatch">00:00.00</div>
+  <button id="startButton">Start Stopwatch</button>
+
+  <div class="lane-times" id="laneTimes">
+    <div class="lane-time" id="lane1">Lane 1: --:--.--</div>
+    <div class="lane-time" id="lane2">Lane 2: --:--.--</div>
+    <div class="lane-time" id="lane3">Lane 3: --:--.--</div>
+    <div class="lane-time" id="lane4">Lane 4: --:--.--</div>
+    <div class="lane-time" id="lane5">Lane 5: --:--.--</div>
+    <div class="lane-time" id="lane6">Lane 6: --:--.--</div>
+  </div>
+
+  <div class="button-grid">
+    <button onclick="stopLane(1)" id="btn1">Stop Lane 1</button>
+    <button onclick="stopLane(2)" id="btn2">Stop Lane 2</button>
+    <button onclick="stopLane(3)" id="btn3">Stop Lane 3</button>
+    <button onclick="stopLane(4)" id="btn4">Stop Lane 4</button>
+    <button onclick="stopLane(5)" id="btn5">Stop Lane 5</button>
+    <button onclick="stopLane(6)" id="btn6">Stop Lane 6</button>
+  </div>
+
+  <script>
+    let startTime;
+    let interval;
+    let running = false;
+    let laneTimes = [null, null, null, null, null, null];
+
+    function formatTime(ms) {
+      let totalSeconds = Math.floor(ms / 1000);
+      let minutes = Math.floor(totalSeconds / 60);
+      let seconds = totalSeconds % 60;
+      let hundredths = Math.floor((ms % 1000) / 10);
+      return `${String(minutes).padStart(2, '0')}:${String(seconds).padStart(2, '0')}.${String(hundredths).padStart(2, '0')}`;
+    }
+
+    function updateStopwatch() {
+      let elapsed = Date.now() - startTime;
+      document.getElementById("mainStopwatch").textContent = formatTime(elapsed);
+    }
+
+    document.getElementById("startButton").onclick = () => {
+      if (!running) {
+        startTime = Date.now();
+        interval = setInterval(updateStopwatch, 10);
+        running = true;
+        document.getElementById("startButton").textContent = "Reset";
+        for (let i = 1; i <= 6; i++) {
+          document.getElementById(`btn${i}`).disabled = false;
+          document.getElementById(`lane${i}`).textContent = `Lane ${i}: --:--.--`;
+          laneTimes[i - 1] = null;
+        }
+      } else {
+        clearInterval(interval);
+        running = false;
+        document.getElementById("mainStopwatch").textContent = "00:00.00";
+        document.getElementById("startButton").textContent = "Start Stopwatch";
+      }
+    };
+
+    function stopLane(lane) {
+      if (!laneTimes[lane - 1] && running) {
+        let time = Date.now() - startTime;
+        laneTimes[lane - 1] = time;
+        document.getElementById(`lane${lane}`).textContent = `Lane ${lane}: ${formatTime(time)}`;
+        document.getElementById(`btn${lane}`).disabled = true;
+      }
+    }
+  </script>
+</body>
+</html>
